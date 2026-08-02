@@ -81,7 +81,7 @@ On first run the app embeds all lore and caches it to `Data/Cache/embedding_cach
 (subsequent starts are fast). Edits to `Data/` need a rebuild + **New Game** so saves reseed
 from the templates.
 
-> The app never downloads a model file by hand — `ollama pull` fetches the weights onto your
+> The app never downloads a model file by hand. `ollama pull` fetches the weights onto your
 > machine and the C# code talks to Ollama's local HTTP API. Nothing model-sized lives in this
 > repository.
 
