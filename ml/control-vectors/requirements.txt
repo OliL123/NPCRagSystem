@@ -1,0 +1,7 @@
+# Control-vector extraction (run on a GPU box / cloud).
+torch
+transformers>=4.44
+accelerate
+bitsandbytes        # only needed for --load-4bit
+repeng              # if pip build fails: pip install git+https://github.com/vgel/repeng.git
+gguf

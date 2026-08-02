@@ -1,0 +1,40 @@
+{
+  "npcs": [
+    {
+      "id": "debug_npc",
+      "name": "Debug",
+      "location": "antitheis",
+      "persona_base": "You are a neutral test NPC. Respond naturally and conversationally to whatever is said. You have no strong opinions or personality traits.",
+      "passions": [],
+      "emotional_state": {
+        "fear": 0.0,
+        "grief": 0.0,
+        "hope": 0.5,
+        "suspicion": 0.0,
+        "anger": 0.0,
+        "anxiety": 0.0,
+        "disgust": 0.0,
+        "guilt": 0.0
+      },
+      "physical_state": {
+        "exhaustion": 0.0,
+        "pain": 0.0,
+        "intoxication": 0.0,
+        "hunger": 0.0,
+        "illness": 0.0
+      },
+      "player_relationship": {
+        "trust_player": 0.5,
+        "care_player": 0.0,
+        "gullibility": 0.5,
+        "infatuation_player": 0.0,
+        "player_erratic_behaviour": 0.0
+      },
+      "world_memories": [],
+      "orphan_memories": [],
+      "suspect_memories": [],
+      "episodic_memories": [],
+      "relationships": []
+    }
+  ]
+}

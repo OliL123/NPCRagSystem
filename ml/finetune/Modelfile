@@ -1,0 +1,23 @@
+# Ollama Modelfile for the pilot fine-tune.
+# 1. Put the downloaded GGUF next to this file (update the FROM path to match its name).
+# 2. ollama create hermes-npc -f Modelfile
+# 3. Pick "hermes-npc" in the game's model picker, and `compare` it against hermes3:8b.
+#
+# Hermes-3 uses the ChatML template. Sampling params mirror SystemConfig so the
+# comparison is fair (same temp/top_p/repeat_penalty the game uses live).
+
+FROM ./hermes-npc.Q4_K_M.gguf
+
+# .Messages form (not legacy .Prompt/.Response): the game sends multi-turn history
+# as a messages array since the history-as-chat-messages refactor, and only this
+# form renders every turn. Matches stock ollama hermes3's ChatML layout.
+TEMPLATE """{{- range .Messages }}<|im_start|>{{ .Role }}
+{{ .Content }}<|im_end|>
+{{ end }}<|im_start|>assistant
+"""
+
+PARAMETER stop "<|im_end|>"
+PARAMETER temperature 0.85
+PARAMETER top_p 0.9
+PARAMETER repeat_penalty 1.15
+PARAMETER repeat_last_n 320

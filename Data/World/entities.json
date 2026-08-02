@@ -1,0 +1,326 @@
+[
+  {
+    "name": "krad carantis",
+    "topic": "Character"
+  },
+  {
+    "name": "krad kraps",
+    "topic": "Character"
+  },
+  {
+    "name": "kira carantis",
+    "topic": "Character"
+  },
+  {
+    "name": "the emperor",
+    "topic": "Character"
+  },
+  {
+    "name": "the waking",
+    "topic": "Character"
+  },
+  {
+    "name": "horama",
+    "topic": "Mythology"
+  },
+  {
+    "name": "viriman empire",
+    "topic": "Faction"
+  },
+  {
+    "name": "house catubrix",
+    "topic": "Faction"
+  },
+  {
+    "name": "house briganar",
+    "topic": "Faction"
+  },
+  {
+    "name": "house yambal",
+    "topic": "Faction"
+  },
+  {
+    "name": "house bituris",
+    "topic": "Faction"
+  },
+  {
+    "name": "house ambarris",
+    "topic": "Faction"
+  },
+  {
+    "name": "house carnaris",
+    "topic": "Faction"
+  },
+  {
+    "name": "paradigm fists",
+    "topic": "Faction"
+  },
+  {
+    "name": "children of reverie",
+    "topic": "Faction"
+  },
+  {
+    "name": "the dreamers",
+    "topic": "Faction"
+  },
+  {
+    "name": "clockwork faithful",
+    "topic": "Faction"
+  },
+  {
+    "name": "the gospel institution",
+    "topic": "Faction"
+  },
+  {
+    "name": "antitheis",
+    "topic": "Location"
+  },
+  {
+    "name": "cyphirius",
+    "topic": "Location"
+  },
+  {
+    "name": "ath",
+    "topic": "Location"
+  },
+  {
+    "name": "fisher's gulf",
+    "topic": "Location"
+  },
+  {
+    "name": "aldare plateau",
+    "topic": "Location"
+  },
+  {
+    "name": "yamhon",
+    "topic": "Location"
+  },
+  {
+    "name": "barcen",
+    "topic": "Location"
+  },
+  {
+    "name": "safarat",
+    "topic": "Location"
+  },
+  {
+    "name": "the notch",
+    "topic": "Location"
+  },
+  {
+    "name": "the outer ring",
+    "topic": "Location"
+  },
+  {
+    "name": "the mid city",
+    "topic": "Location"
+  },
+  {
+    "name": "the inner ward",
+    "topic": "Location"
+  },
+  {
+    "name": "the throne",
+    "topic": "Location"
+  },
+  {
+    "name": "the undermarket",
+    "topic": "Location"
+  },
+  {
+    "name": "onnoris",
+    "topic": "Location"
+  },
+  {
+    "name": "ostavar",
+    "topic": "Location"
+  },
+  {
+    "name": "northern territories",
+    "topic": "Location"
+  },
+  {
+    "name": "rigosena",
+    "topic": "Location"
+  },
+  {
+    "name": "once lost forever found",
+    "topic": "Location"
+  },
+  {
+    "name": "the lost",
+    "topic": "Location"
+  },
+  {
+    "name": "memories caged",
+    "topic": "Location"
+  },
+  {
+    "name": "triforna gallery",
+    "topic": "Location"
+  },
+  {
+    "name": "the bowl",
+    "topic": "Location"
+  },
+  {
+    "name": "faith fallen",
+    "topic": "Location"
+  },
+  {
+    "name": "bitter ends",
+    "topic": "Location"
+  },
+  {
+    "name": "the lows",
+    "topic": "Location"
+  },
+  {
+    "name": "the lowest of the lows",
+    "topic": "Location"
+  },
+  {
+    "name": "tailor's bridge",
+    "topic": "Location"
+  },
+  {
+    "name": "stoa",
+    "topic": "Location"
+  },
+  {
+    "name": "senobel",
+    "topic": "Location"
+  },
+  {
+    "name": "artobel",
+    "topic": "Location"
+  },
+  {
+    "name": "novaturris",
+    "topic": "Location"
+  },
+  {
+    "name": "mortalis cathedral",
+    "topic": "Location"
+  },
+  {
+    "name": "the fall",
+    "topic": "Event"
+  },
+  {
+    "name": "the excision",
+    "topic": "Event"
+  },
+  {
+    "name": "the warlording",
+    "topic": "Event"
+  },
+  {
+    "name": "unification",
+    "topic": "Event"
+  },
+  {
+    "name": "the golden era",
+    "topic": "Event"
+  },
+  {
+    "name": "the silver era",
+    "topic": "Event"
+  },
+  {
+    "name": "phantasis",
+    "topic": "Mythology"
+  },
+  {
+    "name": "blaedre",
+    "topic": "Mythology"
+  },
+  {
+    "name": "scawgeour",
+    "topic": "Mythology"
+  },
+  {
+    "name": "the horologist",
+    "topic": "Mythology"
+  },
+  {
+    "name": "the dreamer",
+    "topic": "Mythology"
+  },
+  {
+    "name": "father sleep",
+    "topic": "Mythology"
+  },
+  {
+    "name": "gospel of man",
+    "topic": "Religion"
+  },
+  {
+    "name": "the open palm",
+    "topic": "Religion"
+  },
+  {
+    "name": "the primarch",
+    "topic": "Religion"
+  },
+  {
+    "name": "the closed fist",
+    "topic": "Religion"
+  },
+  {
+    "name": "the gospellers",
+    "topic": "Religion"
+  },
+  {
+    "name": "nightbrass",
+    "topic": "Culture"
+  },
+  {
+    "name": "dockbeat",
+    "topic": "Culture"
+  },
+  {
+    "name": "the worn lintel",
+    "topic": "Location"
+  },
+  {
+    "name": "bluebells",
+    "topic": "Location"
+  },
+  {
+    "name": "the sleeping hound",
+    "topic": "Location"
+  },
+  {
+    "name": "the big pour",
+    "topic": "Location"
+  },
+  {
+    "name": "carvallen",
+    "topic": "Location"
+  },
+  {
+    "name": "lathvel",
+    "topic": "Location"
+  },
+  {
+    "name": "the astomatory",
+    "topic": "Location"
+  },
+  {
+    "name": "the collegium",
+    "topic": "Faction"
+  },
+  {
+    "name": "house corruthis",
+    "topic": "Faction"
+  },
+  {
+    "name": "house carantis",
+    "topic": "Faction"
+  },
+  {
+    "name": "agonferre",
+    "topic": "Mythology"
+  }
+]

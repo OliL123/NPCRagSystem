@@ -1,0 +1,15 @@
+# Big binaries and generated artifacts — never commit these.
+models/
+**/out/
+*.gguf
+*.safetensors
+*.bin
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Curated training data can get large; keep the converter + a small sample, not dumps.
+finetune/data/*.jsonl

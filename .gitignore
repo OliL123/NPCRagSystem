@@ -1,0 +1,48 @@
+# ─────────────────────────────────────────────────────────────
+#  NPC RAG System — root .gitignore
+#  Keeps source + authored content in git; keeps weights, build
+#  output, virtualenvs, and generated artifacts OUT.
+# ─────────────────────────────────────────────────────────────
+
+# ── .NET build output ────────────────────────────────────────
+bin/
+obj/
+*.user
+*.suo
+.vs/
+
+# ── Model weights & runtime binaries (NEVER commit — GBs) ─────
+# The 4.6 GB base GGUF, the fine-tune outputs, and the control
+# vectors are all regenerable/pullable; keep them out of history.
+*.gguf
+*.safetensors
+*.bin
+ml/models/
+ml/llama.cpp/
+ml/finetune/out/
+
+# ── Python (control-vectors / finetune workshop) ─────────────
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+ml/**/.cache/
+
+# ── Generated caches & runtime state ─────────────────────────
+# Embedding cache is rebuilt on first run from the lore.
+**/embedding_cache.json
+
+# ── Player saves & training logs (runtime, not source) ───────
+# Templates under Data/NpcDataConfig/ ARE tracked; live saves are not.
+Data/Saves/
+Data/training/
+training_log.jsonl
+training_log.txt
+
+# ── Unbuilt authoring drafts (kept local until committed to NPC JSON) ─
+docs/authoring/
+
+# ── OS / editor cruft ────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp

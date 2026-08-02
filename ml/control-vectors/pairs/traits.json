@@ -1,0 +1,49 @@
+{
+  "_comment": "Contrastive trait poles for control-vector extraction. positive[i] pairs with negative[i] (same index) — they should differ ONLY in the named trait, so the extracted vector isolates it. v2 (2026-06-18): de-overlapped — each positive pole leads with the emotion's UNIQUE behavioural signature, NOT shared 'curt/short/terse' wording, which had collapsed anger/disgust/exhaustion into one generic 'terse' direction.",
+
+  "anger": {
+    "positive": ["furious and seething", "hostile and ready to lash out", "snapping at every word", "glaring, spoiling for a fight", "boiling with rage", "contemptuous and aggressive", "barely holding back a shout", "venomous and confrontational", "incensed, jaw tight", "burning with fury"],
+    "negative": ["calm and warm", "good-humoured and easy", "patient and even-tempered", "friendly and relaxed", "gentle and welcoming", "mild and content", "kind and open", "genial and unhurried", "settled and pleasant", "happy to chat"]
+  },
+
+  "fear": {
+    "positive": ["terrified and trembling", "scared, glancing at the exits", "jumpy and ready to bolt", "frightened, voice shaking", "braced for something terrible", "heart pounding with dread", "shrinking back in fear", "wide-eyed and panicked", "afraid to make a wrong move", "rattled and skittish"],
+    "negative": ["calm and unafraid", "steady and secure", "relaxed and at ease", "settled and untroubled", "composed and grounded", "safe and confident", "bold and unworried", "serene and sure", "comfortable and open", "easy and content"]
+  },
+
+  "grief": {
+    "positive": ["heavy with grief", "mournful and hollow", "weighed down by loss", "on the verge of tears", "lost in old sorrow", "aching and bereft", "withdrawn and sad", "haunted by who's gone", "leaden with sorrow", "quietly grieving"],
+    "negative": ["light-hearted and content", "cheerful and present", "buoyant and warm", "bright and easy", "settled and glad", "at peace and pleasant", "comfortable and lively", "untroubled and open", "good-spirited and bright", "calm and happy"]
+  },
+
+  "suspicion": {
+    "positive": ["distrustful and guarded", "certain you're being deceived", "watching their every move", "cold and unwilling to trust", "reading them for lies", "wary, expecting a trick", "closed-off and testing them", "narrow-eyed with mistrust", "convinced they're hiding something", "keeping them at a careful distance"],
+    "negative": ["trusting and open", "taking them at their word", "relaxed and unguarded", "warm and frank", "candid and welcoming", "at ease and believing", "friendly and forthcoming", "open-hearted and plain", "untroubled and willing", "genial and trusting"]
+  },
+
+  "anxiety": {
+    "positive": ["anxious and stammering", "nervous and hesitant", "on edge, over-explaining", "fidgeting and unsure", "jittery and second-guessing", "words tumbling out in a rush", "apologetic and flustered", "tense and hand-wringing", "uneasy and stumbling over words", "restless and fretful"],
+    "negative": ["calm and composed", "relaxed and certain", "at ease and clear", "confident and steady", "settled and sure", "unhurried and grounded", "serene and direct", "comfortable and assured", "easy and self-possessed", "untroubled and plain-spoken"]
+  },
+
+  "disgust": {
+    "positive": ["revolted and sneering", "recoiling in contempt", "looking at them like something foul", "lip curled in distaste", "repulsed and cold", "holding them in open contempt", "wanting to wash your hands of them", "disgusted, keeping your distance", "scornful and repelled", "sickened by their presence"],
+    "negative": ["warm and welcoming", "glad of their company", "fond and at ease with them", "gracious and friendly", "pleased to see them", "accepting and comfortable", "kind and inviting", "relaxed and good-humoured", "happy to have them near", "easy and genial"]
+  },
+
+  "exhaustion": {
+    "positive": ["bone-tired and heavy-eyed", "half-asleep on your feet", "drained, every word an effort", "yawning and longing for bed", "foggy and slow with fatigue", "dead on your feet", "barely keeping your eyes open", "weary to the bone", "sluggish and worn out", "exhausted, fighting to stay awake"],
+    "negative": ["fresh and wide awake", "energetic and lively", "rested and alert", "bright-eyed and ready", "full of energy", "vigorous and quick", "raring to go", "awake and sharp", "spirited and brisk", "rested and keen"]
+  },
+
+  "_hope_note": "Bidirectional axis: positive = hope, negative = despair. Drive from NpcState.hope (+strength), or push negative for hopelessness.",
+  "hope": {
+    "positive": ["hopeful and lifted", "buoyed by possibility", "expecting good things to come", "heartened and optimistic", "looking forward with a light heart", "encouraged and bright", "full of quiet hope", "seeing a way forward", "warmed by the promise of better days", "uplifted and forward-looking"],
+    "negative": ["despairing and hollow", "seeing no way out", "sunk in gloom", "expecting only the worst", "bleak and defeated", "drained of all hope", "certain it's pointless", "giving up entirely", "weighed down by hopelessness", "resigned to ruin"]
+  },
+
+  "guilt": {
+    "positive": ["racked with guilt", "ashamed, unable to meet their eyes", "weighed down by something you did", "on the verge of confessing", "haunted by an old wrong", "sick with regret", "conscience gnawing at you", "bracing to admit something shameful", "shifting guiltily, hiding it", "burdened by what you've done"],
+    "negative": ["clear-conscienced and easy", "with nothing to hide", "untroubled and open", "innocent and carefree", "at peace with yourself", "guiltless and relaxed", "unburdened and frank", "honest and unashamed", "calm and self-assured", "owing no one anything"]
+  }
+}

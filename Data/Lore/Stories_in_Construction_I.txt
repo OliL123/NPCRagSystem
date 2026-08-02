@@ -1,0 +1,132 @@
+# STORIES IN CONSTRUCTION
+### *Notes on Architecture and the Civic Space in Ath*
+*Krad Kraps*
+
+---
+
+There is depth to architecture, beyond the mere visual pleasure and aesthetics coherency. It is the intentionality and will carved into the marble around you, a vision in the mind turned to physical arguments. They represent the patrons and the artists with its style and function. Interpreting its meaning is like reading a poem, intentionality hidden in form and structure, so read deeper into what you see, and history, philosophy, culture, will all be revealed.
+
+---
+
+## GENERAL REGIONS OF ATH
+
+### THE NORTH — PRACTICALITY IN VISUAL FORM
+
+The Northern Frontier is what greets weary distant travellers first after their arduous journey to the isolated continent of Ath. Home to the timber industry of the Empire, most of its constructions are made from local hardwoods. Simple and hardy, just like the people, it provides a distinct contrast in character to the metropolis of Antitheis and the southern Fisher's Gulf.
+
+Post-and-beam constructions are typical: upright timber frames with the spaces between filled with wattle and daub, or in wealthier construction with split planking. The rooflines are steep, pitched to shed the winter snow that reaches the northern valleys in the winter months. Overhanging eaves are wide, protecting the walls from rain, and the buildings sit low to the ground with a solidity that has more to do with weight distribution than any deliberate aesthetic. Short and stocky, they look like they have been pressed into the earth by the weather, which in a sense they have.
+
+In your typical village, one of the rare few notable things to see are the inns — which function simultaneously as drinking establishment, meeting hall, and occasional courthouse. Typically the largest timber structure in any northern settlement, the hearth is always central, always substantial, always the social core of the building. In many of these inns, the hearths seem to be older than the buildings, with stones blackened by the generations of fires and the stories told around them. The mantles above are usually worn smooth by different hands, yet each were warmed by the same hearth. A continuous, warming certainty within the sporadic and chaotic parts of human life.
+
+One common feature lacking in these places are the Cathedrals you see further down south. The sparse population does not justify the cost, so instead the religious institutions have built what they call Gospel halls — smaller, simpler structures built in timber rather than the characteristically imposing stone. They maintain the Romanesque arch form in wood where possible, with a modest exterior clock if the community is large enough to warrant one. These halls lack the grandeur of the southern cathedrals but serve the same social functions: morning assemblies, literacy teaching and sharing of food in lean seasons. It is the base for the parish workers, a home and storage centre to help them through their quiet rounds. Rarely do Gospellers pass through, though when they do the halls become their homes too. The resident workers thus become an integral part of the village's social fabric, acting as one of them rather than the religious institution they represent.
+
+*[To be expanded: regional capital Brigovan and notable town architecture]*
+
+---
+
+### THE HEARTLANDS — STONE EMERGING FROM FOREST
+
+Moving south through towards the interior, the timber construction does not end but more so begin to merge into the landscape alongside stone. The Heartlands hills contain workable limestone deposits, and as settlements grow larger and more permanent, stone provides long-lasting and sturdy buildings to structure life around. It does not burn, nor does it rot, rather it remains tall in an assertion of the definitive self. The first stone construction in growing Interior towns are usually your civic or defensible kind: a grain store, a wall section, a gatehouse. The surrounding domestic buildings remain wooden for longer, because timber is what the inhabitants know and what the forest continues to provide.
+
+River towns, which have existed at their junctions long enough to accumulate both wealth and permanence, show this transition most clearly. The regional capital Cambornum is a living time capsule that showcases this; the oldest surviving structures in rough mortared rubble, their stones pulled from whatever Pre-Fall foundations were closest. Later constructions are more carefully dressed limestone with clean quoining at the corners, and the newest buildings following the fully developed Viriman civic grammar of the south. Walking the older streets of Cambornum is a lesson in the archaeology of a civilisation through its assembly.
+
+The Pre-Fall remnants visible throughout the Interior — the foundations that emerge from forest undergrowth, the stretches of paved road that go nowhere useful — are a different category of stone construction entirely. The dressing on Pre-Fall stonework is finer than anything the Rebuilding period has produced, the fitting more precise, the scale in some cases considerably larger than anything the current population has attempted. The Empire's official position is that these remnants are simply evidence of a more numerous population with correspondingly greater building capacity. This is not entirely wrong. It is also not entirely satisfying as an explanation for certain sites in the northern Interior where the construction methods suggest techniques that current Viriman craftsmen cannot fully account for.
+
+I will note one site in particular, which I visited with a cartographer whose notes I was permitted to review. A set of foundations in the deep northern forest, arranged in a radial pattern around a central depression approximately four metres across and perfectly circular. The stones of the foundation are not local limestone. They are a dark, fine-grained material that the cartographer could not identify and that shows no weathering despite its evident age. The central depression contains no water despite sitting below the surrounding grade. The cartographer's notes describe it as a Pre-Fall cistern of unknown function. I stood at the edge of the depression for some time and thought about other explanations, and I recorded none of them.
+
+---
+
+## THE THREE LANGUAGES OF VIRIMAN ARCHITECTURE
+
+Before we examine the specifics of the city, we must understand that not all buildings in Antitheis speak the same architectural language. Three distinct vocabularies operate in the city simultaneously, each belonging to a different institution, each making a different argument about humanity's relationship to what lies above. Understanding which vocabulary a building belongs to tells you more about who built it and why than any inscription on its walls.
+
+### THE CIVIC GRAMMAR — EARTHWARD AND CERTAIN
+
+The first and most pervasive language is the one the Empire itself speaks: heavy-set, imposing, certain of its position on the ground. It is the anti-deific mentality made physical. There is no desire to reach into the heavens and pierce the sky. Rather it is grounded in reality, planted in the earth, an aspiration to be something that cannot be moved.
+
+This is best seen in the heavy walls of the civic institutions — dressed limestone a full metre thick, accompanied by small windows that admit only controlled light, creating the impression of a building that has settled into the earth and intends to stay there. The building does not reach. It remains.
+
+**The Rounded Arch** is the primary phrase in this vocabulary. Semicircular arches distribute load evenly, the heavy mass of thick walls shouldered collectively by every stone in the curve. But its meaning extends beyond the structural. The rounded arch does not point. It returns. Every doorway and window in a major Viriman civic building completes its own curve and comes back — not reaching toward anything beyond itself, but signifying humanity contained and sufficient.
+
+**The Rotunda** is the primary civic building form — wide circular spaces with domes that draw the eye along curved surfaces and return it to earth rather than lifting it toward a vanishing point. Where other cultures build towers and spires that demand you acknowledge what lies above, the rotunda gathers the space around you. The dome brings the vastness of the sky down into the human realm rather than sending the human eye upward into it. There is no apex to strive toward. Only the gathering of everything at the level of the person standing within it.
+
+**Decorative vocabulary** in Viriman civic architecture is emphatically terrestrial. Floor surfaces in important buildings are polished stone, frequently inscribed with text — edicts, census records, the names of significant decisions. Ceiling vaults carry geometric patterning referencing roots, foundations, stone strata. Where figural imagery appears it is human and historical. The sky, when it appears at all, is depicted as something being closed, receded, or simply very far away.
+
+**The Treatment of Pre-Fall Elements** deserves particular attention. Where Viriman construction incorporates surviving Pre-Fall stonework, the policy toward whatever imagery that stonework originally carried has been consistent: removal where possible, smoothing where removal would compromise structural integrity. The columns beneath the Rigosena have been ground smooth, whatever they once depicted reduced to a slightly irregular texture in the stone. New inscriptions have been cut into them. The inscriptions are primarily administrative.
+
+I have seen, in the lower levels of several Inner Ward buildings, places where the smoothing was done hastily, and where if the light falls at a certain angle one can see, ghosted into the stone beneath the grinding, the outline of what used to be there. A hand. The suggestion of a face. A form that might be wings or might be elaborate drapery. I have not attempted to record these in detail. I do not think that would be wise.
+
+**The octagonal bath houses** found in the upper city and wealthier Mid City districts are among the more quietly ironic features of Antitheis. Built on the sites and in the shells of Pre-Fall structures whose original function is not recorded in any accessible document, they retain the distinctive eight-sided plan that the original builders considered significant enough to construct in dressed stone. What that significance was, nobody now knows or much asks. The patrons who use them are engaged in bathing — in washing away the day's accumulation — without any awareness that the shape around them once meant something specific about cleansing, transition, and the beginning of a new life. The ritual has been emptied of its meaning and filled with hot water. The building remains.
+
+### THE GOSPEL GRAMMAR — CONFRONTATIONAL AND VERTICAL
+
+The second language belongs to the Gospel of Man, and it sounds completely different from the civic grammar. This requires explanation, because at first it appears to contradict the Empire's founding architectural philosophy.
+
+The Gospel does not reject the sky. It challenges it. The towers of the Mortalis Cathedral reach upward with an aggression absent from every civic building surrounding them. But this vertical ambition is not aspiration toward the divine — it is defiance directed at it. The civic grammar says: we do not look up. The Gospel grammar says: we are coming for what is up there. These are different positions and they produce different buildings.
+
+This distinction is most visible in the rose window. In the traditions this architecture borrows from, the rose window is the eye of God looking down into the nave. In the Mortalis Cathedral it is a closed fist. The light that enters falls in the shape of knuckles. The building is not receiving grace from above. It is punching upward.
+
+The pointed elements in the towers — the vertical thrust, the aggressive height — borrow from earlier architectural traditions and repurpose them. Where those traditions used verticality to lift the worshipper's spirit toward the divine, the Gospel uses the same verticality to project human defiance upward. The direction is the same. The meaning is inverted.
+
+### THE ANOMALY — THE HALL OF THE WAKING
+
+The third language belongs to one building and one building only, and it fits neither grammar above.
+
+The Rigosena makes you want to look up.
+
+This should not happen. The civic grammar is built entirely around preventing this impulse. The rotundas draw the eye around, not upward. The thick walls press down. The small windows limit the sky. Every architectural choice in the Viriman civic tradition is designed to keep the human gaze at the human level — and in the Rigosena, the dome floats above a ring of windows that floods the transition between wall and ceiling with light, making the join invisible, making the dome appear to hover without support. You stand beneath it and your eyes go up. There is nothing in the civic grammar to prevent this because this building was not built according to the civic grammar.
+
+The Rigosena was designed at the Empire's founding. The Emperor approved the plans. He has had two centuries to change them. He has not.
+
+Every other building in Antitheis tells you what it is for by the language it speaks. The civic buildings say: we remain on the earth. The Gospel buildings say: we defy what is above. The Rigosena says something else — something that has no official name in the Empire's architectural vocabulary, something that people who have stood beneath the dome describe afterwards with words whose implications they cannot quite follow to their conclusion.
+
+The building is an anomaly. It was permitted. It has been maintained. Whatever the Emperor intended when he approved a dome that makes the people of a city built on not looking up look up, he has chosen not to explain it.
+
+---
+
+## THE MORTALIS CATHEDRALS — THE GOSPEL GRAMMAR IN FULL
+
+The Mortalis Cathedrals are the fullest expression of the second architectural language — the Gospel grammar of confrontation and vertical defiance. Everything described in the section above is visible here at its most developed and most deliberate. The name itself requires explanation before the building does. *Mortalis* — to be mortal. The Cathedrals are not named after death. They are named after the condition of being human, the condition the Gospel of Man has elevated from vulnerability into virtue. You are mortal. This building is for you. That is the argument the name makes before you have seen a single stone of it.
+
+### THE EXTERIOR
+
+The Mortalis Cathedral follows the cruciform plan — the long nave running west to east, the transepts extending north and south, the apse at the eastern terminus — with a fidelity to established ecclesiastical form that is itself a statement. The Gospel of Man did not invent a new building type. It took an existing one and replaced its contents. The skeleton is the same. What it holds is entirely different.
+
+The primary facade, facing west, is dominated by two flanking towers of considerable height. This is the most visible departure from standard Viriman civic architecture — the towers reach upward in a way that no rotunda does, their mass tapering toward pointed caps that are visible from a significant distance. The apparent contradiction with the earthward preference of Viriman civic buildings resolves when one understands the intent. These towers do not reach toward heaven in deference. They reach toward it in the way a fist raised is not a gesture of supplication. The building is not aspiring. It is confronting.
+
+Between the towers, the central facade is articulated by a large rounded arch entrance — emphatically Romanesque, emphatically horizontal at its base — above which sits the cathedral's most distinctive and deliberately chosen feature: the rose window. In the ecclesiastical tradition from which the Cathedral's plan derives, the rose window is the eye of God, the circular opening through which divine light enters the building and falls across the congregation below. In the Mortalis Cathedral it is a closed fist, rendered in stone tracery and coloured glass, the knuckles facing outward. The light that enters through it falls in the shape of a hand in the act of striking. I stood beneath it for some time on my first visit and found it one of the more arresting things I have seen on this continent.
+
+The exterior walls are built in the heavy limestone of the Viriman tradition, with the dressed stone facing concealing a rubble core of considerable thickness. The window openings are characteristically small for the wall area — deeply splayed, the inner opening wider than the outer to maximise the light from a narrow aperture. The overall exterior mass is severe rather than decorative, which suits the institution. What ornament exists is concentrated at the entrance portal: carved figures in the archivolt, scenes from the life of the first Primarch arranged in registers above the doorway. The Primarch's open palm faces outward toward the approaching visitor. His closed fist is visible at his side.
+
+An exterior civic clock is mounted on the south tower of the major cathedrals — a mechanical device of considerable complexity that requires specialist maintenance and which serves, officially, as a public timekeeping resource. It also serves, less officially, as a demonstration of the Gospel of Man's institutional resources. A clock of this quality requires both the knowledge to build it and the ongoing competence to maintain it. The parish workers who maintain the cathedral clocks are a specific and somewhat insular professional community, trained in a tradition that passes master to apprentice and that has, I have noticed, a tendency to produce individuals of unusual precision in their habits. I have not investigated this observation further.
+
+### THE INTERIOR
+
+Entering the Mortalis Cathedral from the western portal, the visitor moves from the relatively bright exterior into a space of considerable controlled dimness. The thick walls and small windows produce an interior light that is heavy and specific rather than ambient — shafts of illumination from the splayed window openings falling in defined columns across the nave floor, the spaces between them genuinely dark. The barrel-vaulted nave ceiling presses downward with a weight that is not unpleasant but is insistent. You are aware, in a Mortalis Cathedral interior, of the stone above you.
+
+The nave floor is polished limestone, inscribed with the names of donors in order of their contribution, the largest names nearest the altar and the smallest near the entrance. This hierarchy of inscription is the floor reading the visitor from the moment they enter, and it is legible to anyone who looks down — which, in a building whose architecture encourages looking down rather than up, is everyone. To be buried in the floor of a Mortalis Cathedral, rather than merely inscribed in it, is reserved for figures of significant standing. To be buried in the floor near the altar is an honor that money alone cannot purchase.
+
+**The Fresco Programme** covers the nave and chancel walls in a hierarchy that any visitor can read without being told how. The apse — the most sacred and most prominent position in the building, what every eye travels toward at the eastern end — holds the founding image of the first Primarch. The rendering varies between cathedrals, but the conventions are consistent: a figure of considerable physical presence, neither young nor old, the open palm extended forward and the closed fist visible at the side. Some apse renderings show him standing. Some show him seated, which in the iconographic tradition this borrows from is a position of judgment. His face, in all versions I have encountered, is depicted with an expression that I find difficult to characterise precisely — not benevolent, not severe, something that sits between them that I have heard Antitheis residents describe as *the look of someone who already knows how this ends.* I found this description, when I heard it, more accurate than the speaker probably intended.
+
+Below the Primarch in the apse, the founding Gospellers are depicted in the register — anonymous in death as in life, rendered as types rather than individuals, identifiable by symbolic attributes rather than faces. Moving westward along the nave walls, the fresco programme continues with significant Gospellers from the Rebuilding period, then more recent figures deemed worthy of commemoration, and finally, at the lowest register nearest the entrance, the patrons: the noble houses and wealthy individuals whose financial contributions purchased their place on the wall. The transition from the sacred historical figures in the chancel to the wealthy donors near the entrance is gradual enough to be navigable and clear enough that everyone understands it.
+
+The side chapels, opening off the nave aisles, are the private territories of individual patron families. Each is funded, decorated, and maintained by its sponsor, and each contains a small altar, commemorative imagery of the sponsoring family's notable members, and in some cases burial niches. House Yambal maintains a chapel in the Antitheis Mortalis Cathedral that is notable for the quality of its stonework and for a decorative border running along the base of its walls — a band of carved wave forms and deep-water imagery that the chapel's custodian describes, when asked, as a reference to the family's maritime heritage. The carving is very fine. The creatures visible in the waves are not fish.
+
+**The Organ** occupies the western gallery above the entrance, positioned so that its sound travels the full length of the nave toward the apse. The pipe cases of the major cathedrals are among the most elaborate pieces of craftsmanship on Ath — not in a decorative sense, though the cases are ornamented, but in the engineering sense of the word. The precision required to voice an organ of this size, to calibrate hundreds of pipes to the correct pitch and timbre in a space with the specific acoustic properties of a barrel-vaulted stone nave, represents the sustained application of a level of craft knowledge that took the Rebuilding period most of a century to recover. When the organ plays during a full assembly the sound is not merely heard. It is felt in the sternum, in the teeth, in the specific vibration of the stone floor beneath the feet. It is, and I say this as someone who holds no brief for the Gospel of Man's institutional aims, extraordinarily effective.
+
+**The Pulpit** stands at the junction of nave and chancel, elevated on a stone column to be visible from every seat in the nave. A Gospeller preaching from the Mortalis pulpit — masked, cloaked, indistinguishable from any other Gospeller — is a figure of considerable presence in that elevated position. The anonymity, which in the street reads as practical or even faintly sinister, reads differently from a pulpit. It reads as the voice of an institution rather than a person, which is precisely what it is.
+
+**The Crypt** beneath the apse is accessible through a staircase in the chancel. The significant dead of the Gospel of Man's history are interred here — senior figures, notable Gospellers, Primarchs of the institution in various periods. Mortality as virtue means the honored dead are kept central, beneath the most important space in the building, their presence foundational in the most literal sense. The crypt of the Antitheis cathedral contains, in a sealed chamber at its eastern end, something that the cathedral's senior parish workers describe as relics of the first Primarch. I asked what form these relics take and was told, pleasantly but finally, that this was not a question for visitors. I did not pursue it.
+
+### THE PROVINCIAL CATHEDRALS
+
+Outside Antitheis, the Mortalis Cathedrals vary in scale and material while maintaining the essential elements of the form. The towers are shorter in provincial buildings, the nave narrower, the fresco programme less extensive and often less accomplished in its execution. The rose window — the fist — is always present, always in the correct position above the entrance, always the clearest statement the building makes about what it is. Provincial organs are smaller but present in all but the smallest establishments. The patron chapel system scales with local wealth: in a Gulf Coast town the chapel donors are primarily merchant families and senior trading factors; in an Interior market town they tend to be the larger landholding families and the more prosperous administrators.
+
+The material of the provincial cathedrals reflects what is locally available. The Gulf Coast buildings use the same dense grey limestone as Antitheis where they can obtain it and a lighter local sandstone where they cannot. Further north, where the quarries thin out, some provincial cathedrals incorporate significant amounts of fired brick — a harder material to work with for the Romanesque arch forms but one that, in the hands of experienced builders, produces a distinctive warm-toned character quite different from the grey weight of the limestone buildings. The northernmost Gospel halls, where full cathedral construction is not feasible, maintain the arch forms in timber — carved and fitted wooden arches spanning the nave of what is otherwise a sophisticated timber frame building, the rose window rendered in painted wood rather than stone tracery and coloured glass. It is less impressive than the stone original. It is also, in its context, more than sufficient.
+
+
+---
+
+*The regions of Ostavar, the Fisher's Gulf, and a brief account of the Aldare plateau settlements will follow in a later addition to this volume. For a comprehensive account of Antitheis specifically, the reader is directed to the companion volume.*
+
+*— Yours Truly, Krad Kraps*

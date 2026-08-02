@@ -1,0 +1,158 @@
+[
+  {
+    "query": "what is this place",
+    "label": "Simple"
+  },
+  {
+    "query": "who are you",
+    "label": "Simple"
+  },
+  {
+    "query": "who is this person",
+    "label": "Simple"
+  },
+  {
+    "query": "where is the market",
+    "label": "Simple"
+  },
+  {
+    "query": "what do you sell",
+    "label": "Simple"
+  },
+  {
+    "query": "when did that happen",
+    "label": "Simple"
+  },
+  {
+    "query": "what is the name of the company",
+    "label": "Simple"
+  },
+  {
+    "query": "who runs things around here",
+    "label": "Simple"
+  },
+  {
+    "query": "where did he go",
+    "label": "Simple"
+  },
+  {
+    "query": "do you have a brother",
+    "label": "Simple"
+  },
+  {
+    "query": "what is that place called",
+    "label": "Simple"
+  },
+  {
+    "query": "what is that",
+    "label": "Simple"
+  },
+  {
+    "query": "what is his name",
+    "label": "Simple"
+  },
+  {
+    "query": "what is this place",
+    "label": "Simple"
+  },
+  {
+    "query": "what is that event called",
+    "label": "Simple"
+  },
+  {
+    "query": "tell me about the recent troubles here",
+    "label": "Medium"
+  },
+  {
+    "query": "what do you know about the people in charge",
+    "label": "Medium"
+  },
+  {
+    "query": "what happened to the district",
+    "label": "Medium"
+  },
+  {
+    "query": "how do things work around here",
+    "label": "Medium"
+  },
+  {
+    "query": "what is the history of this place",
+    "label": "Medium"
+  },
+  {
+    "query": "what do you know about this company",
+    "label": "Medium"
+  },
+  {
+    "query": "what happened at the gate",
+    "label": "Medium"
+  },
+  {
+    "query": "how did things get this bad",
+    "label": "Medium"
+  },
+  {
+    "query": "what do people say about this group",
+    "label": "Medium"
+  },
+  {
+    "query": "why did the conflict happen and who was responsible",
+    "label": "Complex"
+  },
+  {
+    "query": "what is the relationship between the two factions",
+    "label": "Complex"
+  },
+  {
+    "query": "how did the situation lead to what we see today",
+    "label": "Complex"
+  },
+  {
+    "query": "what might have happened to the people who left",
+    "label": "Complex"
+  },
+  {
+    "query": "how did geography and politics shape this region",
+    "label": "Complex"
+  },
+  {
+    "query": "why did they do it and what were the consequences",
+    "label": "Complex"
+  },
+  {
+    "query": "who do you blame for what happened",
+    "label": "Complex"
+  },
+  {
+    "query": "what really caused the trouble and who benefited",
+    "label": "Complex"
+  },
+  {
+    "query": "how did the old power structures lead to conflict",
+    "label": "Complex"
+  },
+  {
+    "query": "what might happen if things continue this way",
+    "label": "Complex"
+  },
+  {
+    "query": "what is the relationship between two groups",
+    "label": "Complex"
+  },
+  {
+    "query": "what is the connection between these events",
+    "label": "Complex"
+  },
+  {
+    "query": "what is the reason behind the conflict",
+    "label": "Complex"
+  },
+  {
+    "query": "what is the cause of the trouble here",
+    "label": "Complex"
+  },
+  {
+    "query": "what is the history behind this place and its people",
+    "label": "Complex"
+  }
+]

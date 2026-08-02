@@ -1,0 +1,1162 @@
+{
+  "locations": [
+    {
+      "id": "carvallen",
+      "name": "Carvallen Main Gates",
+      "region": "carvallen",
+      "connected_locations": [
+        "sleeping_hound_bar",
+        "carvallen_market",
+        "logging_hall",
+        "northern_road",
+        "varenne_farmstead",
+        "bren_rooms"
+      ],
+      "travel_advances_day": false,
+      "flavour_texts": [
+        {
+          "condition": "default",
+          "text": "Carvallen sits at the junction of three logging roads. The air smells of pine resin. The main road runs through it and out the other side."
+        },
+        {
+          "condition": "morning",
+          "hours": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "text": "Carvallen is waking up. Oxen carts rumble down the logging road. Smoke is rising from the Sleeping Hound chimney."
+        },
+        {
+          "condition": "evening",
+          "hours": [
+            17,
+            18,
+            19,
+            20,
+            21
+          ],
+          "text": "The logging carts have come in for the night. A few lights burn in the windows. The Sleeping Hound is lit up from within."
+        }
+      ]
+    },
+    {
+      "id": "sleeping_hound_bar",
+      "name": "The Sleeping Hound",
+      "region": "carvallen",
+      "connected_locations": [
+        "carvallen",
+        "sleeping_hound_kitchen",
+        "sleeping_hound_room"
+      ],
+      "travel_advances_day": false,
+      "travel_time_minutes": 0,
+      "flavour_texts": [
+        {
+          "condition": "default",
+          "text": "The Sleeping Hound is low-beamed and warm, smelling of woodsmoke and something good from the kitchen. An old dog sleeps by the front door without acknowledging your arrival."
+        },
+        {
+          "condition": "morning",
+          "hours": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "text": "The bar is quiet at this hour. Motte is asleep by the door. The fire has been stoked and the smell of bread is coming through from the kitchen."
+        },
+        {
+          "condition": "evening",
+          "hours": [
+            17,
+            18,
+            19,
+            20,
+            21,
+            22
+          ],
+          "text": "The common room is filling up. Loggers with nowhere better to be, a couple of merchants pausing on the road south. The fire is doing its job."
+        },
+        {
+          "condition": "empty",
+          "text": "The bar is empty. The fire burns down slowly. Motte is asleep by the door and doesn't stir."
+        }
+      ]
+    },
+    {
+      "id": "sleeping_hound_kitchen",
+      "name": "The Kitchen",
+      "region": "carvallen",
+      "connected_locations": [
+        "sleeping_hound_bar"
+      ],
+      "travel_advances_day": false,
+      "travel_time_minutes": 0,
+      "flavour_texts": [
+        {
+          "condition": "default",
+          "text": "The kitchen is warm and smells of rendered fat and dried herbs. Pots are on the stove. A large book sits open on the shelf by the window — handwritten recipes."
+        },
+        {
+          "condition": "empty",
+          "text": "The kitchen is empty, though the stove is still warm. Something was here recently."
+        }
+      ]
+    },
+    {
+      "id": "carvallen_market",
+      "name": "Carvallen Market",
+      "region": "carvallen",
+      "connected_locations": [
+        "carvallen"
+      ],
+      "travel_advances_day": false,
+      "flavour_texts": [
+        {
+          "condition": "default",
+          "text": "A small market square. Most stalls are closed. On Saturdays it comes to life — timber goods, dried provisions, the occasional trader from the south."
+        },
+        {
+          "condition": "morning",
+          "hours": [
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "text": "The market is open. Mostly locals — sawyers picking up provisions, a trader from further north with a cart of furs."
+        }
+      ]
+    },
+    {
+      "id": "logging_hall",
+      "name": "The Logging Hall",
+      "region": "carvallen",
+      "connected_locations": [
+        "carvallen"
+      ],
+      "travel_advances_day": false,
+      "open_hour": 6,
+      "close_hour": 18,
+      "flavour_texts": [
+        {
+          "condition": "default",
+          "text": "The logging hall is the operational centre of Carvallen's timber trade — a broad, high-ceilinged building smelling of sawdust and pine resin. Ledgers and route maps are pinned to a board near the door."
+        },
+        {
+          "condition": "morning",
+          "hours": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "text": "The hall is busy. Carters and sawyers move through. Someone near the far wall is arguing about a delivery weight with the quiet persistence of someone who has been at it for a while."
+        },
+        {
+          "condition": "empty",
+          "text": "The logging hall is empty and locked up for the night. The day's work is done."
+        }
+      ]
+    },
+    {
+      "id": "northern_road",
+      "name": "The Northern Road South",
+      "region": "wilderness",
+      "connected_locations": [
+        "carvallen",
+        "lathvel",
+        "antitheis_outskirts"
+      ],
+      "travel_advances_day": true,
+      "flavour_texts": [
+        {
+          "condition": "default",
+          "text": "The road south descends through the foothills toward the midlands. It is reliable, which is what matters. You will not reach Antitheis today — but the village of Lathvel lies ahead, where travellers break the journey by the falls."
+        }
+      ]
+    },
+    {
+      "id": "lathvel",
+      "name": "Lathvel Main Gates",
+      "region": "lathvel",
+      "connected_locations": [
+        "northern_road",
+        "antitheis_outskirts",
+        "lathvel_inn",
+        "lathvel_store",
+        "fate_falls"
+      ],
+      "travel_advances_day": false,
+      "flavour_texts": [
+        {
+          "condition": "default",
+          "text": "Lathvel is small, clean, and quieter than its size should allow — a forest village that has learned to be pleasant. Painted shutters, swept steps, the sound of falling water somewhere beyond the trees. Visitors come for the falls, they say."
+        },
+        {
+          "condition": "evening",
+          "hours": [
+            18,
+            19,
+            20,
+            21,
+            22
+          ],
+          "text": "Lamps are lit along Lathvel's single street and the sound of the falls carries further at night. A few well-dressed visitors drift toward the inn. Nobody here is ever loud."
+        }
+      ]
+    },
+    {
+      "id": "lathvel_inn",
+      "name": "The Big Pour",
+      "region": "lathvel",
+      "connected_locations": [
+        "lathvel"
+      ],
+      "travel_advances_day": false,
+      "travel_time_minutes": 0,
+      "flavour_texts": [
+        {
+          "condition": "default",
+          "text": "The inn is comfortable in a way that costs money — good chairs, a clean hearth, wine rather than ale. It is built for visitors who expect better than a logging town, and it delivers."
+        },
+        {
+          "condition": "empty",
+          "text": "The inn's common room is empty, the fire banked low. A guest book lies open on the counter, most of its names written in a careful, expensive hand."
+        }
+      ]
+    },
+    {
+      "id": "lathvel_store",
+      "name": "The Lathvel General Store",
+      "region": "lathvel",
+      "connected_locations": [
+        "lathvel"
+      ],
+      "travel_advances_day": false,
+      "open_hour": 7,
+      "close_hour": 19,
+      "travel_time_minutes": 0,
+      "flavour_texts": [
+        {
+          "condition": "default",
+          "text": "The general store is well-stocked and well-kept, the counter polished smooth by careful hands. It serves the village and the visitors both, and the man behind it seems to know everyone who comes through the door."
+        }
+      ]
+    },
+    {
+      "id": "fate_falls",
+      "name": "Fate Falls",
+      "region": "lathvel",
+      "connected_locations": [
+        "lathvel"
+      ],
+      "travel_advances_day": false,
+      "travel_time_minutes": 15,
+      "flavour_texts": [
+        {
+          "condition": "default",
+          "text": "Fate Falls drops in a long white ribbon into a dark pool, loud and constant and genuinely beautiful — this is what the village shows the world. A footpath leads on through the glade toward something older among the trees, but a low rope and a polite painted sign turn visitors back: private, by the Prophets' invitation only."
+        }
+      ]
+    },
+    {
+      "id": "the_astomatory",
+      "name": "The Astomatory",
+      "region": "lathvel",
+      "connected_locations": [
+        "fate_falls"
+      ],
+      "travel_advances_day": false,
+      "travel_time_minutes": 10,
+      "flavour_texts": [
+        {
+          "condition": "default",
+          "text": "The Astomatory is older than anything in Lathvel — a ruin of dark, rich stone half-swallowed by the glade, the air inside it close and still. Whatever it was raised to honour, it was raised to last. Voices drop here without anyone deciding to."
+        }
+      ]
+    },
+    {
+      "id": "antitheis_outskirts",
+      "name": "Antitheis — Outskirts",
+      "region": "wilderness",
+      "connected_locations": [
+        "northern_road",
+        "lathvel",
+        "antitheis_north_gate"
+      ],
+      "travel_advances_day": true,
+      "happenings": [
+        {
+          "id": "gate_markets",
+          "label": "the Gate Markets",
+          "description": "The Gate Markets sprawl across the cleared ground before the wall — farmers' carts and merchants' scales for the bulk trade, and a fringe of stalls and hawkers working the queue for the gate. It is loud, crowded, and not all of it is honest.",
+          "hours": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "npc_ids": [
+            "tasco",
+            "maddoc",
+            "lugor",
+            "bevan",
+            "drust",
+            "guiraut"
+          ]
+        }
+      ],
+      "flavour_texts": [
+        {
+          "condition": "default",
+          "text": "The city announces itself before you see it — coal smoke on the wind, the road thickening with carts and foot traffic, the forest giving way to cleared ground and shanties. Ahead, the grey curtain wall of Antitheis runs off in both directions, and the north gate stands open under the eye of the watch. There is a queue. There is always a queue."
+        },
+        {
+          "condition": "morning",
+          "hours": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "text": "The morning queue at the north gate is long and slow. Carters argue tolls, hawkers work the line, and a pair of House Ambarris clerks check papers with the unhurried thoroughness of people who are paid by the day. The wall throws a cold shadow over all of it."
+        },
+        {
+          "condition": "evening",
+          "hours": [
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "text": "The north gate is winding down for the night. Lamps are being lit along the wall, the last carts pushed through, and those who didn't make it in are setting up to wait until morning among the shanties. The city glows above the wall like a banked fire."
+        }
+      ]
+    },
+    {
+      "id": "antitheis_north_gate",
+      "name": "The North Gate",
+      "region": "antitheis",
+      "connected_locations": [
+        "antitheis_outskirts",
+        "antitheis_outer_ring"
+      ],
+      "travel_advances_day": false,
+      "travel_time_minutes": 5,
+      "flavour_texts": [
+        {
+          "condition": "default",
+          "text": "The north gate is a deep arch through the grey curtain wall, wide enough for two carts abreast and shadowed even at noon. The city watch keep their post here, checking papers and tolls with practised boredom. Through the arch the noise and smoke of Antitheis proper begin in earnest; behind you, the road and the open country."
+        },
+        {
+          "condition": "evening",
+          "hours": [
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "text": "The north gate is half-shut for the night, one leaf of the great doors drawn across and a single lamp burning over the wicket. A bored watchman waves the last stragglers through before the bar comes down."
+        }
+      ]
+    },
+    {
+      "id": "antitheis_outer_ring",
+      "name": "Outer Seventh Avenue",
+      "region": "antitheis",
+      "connected_locations": [
+        "antitheis_north_gate",
+        "mid_city_plaza",
+        "stool_street",
+        "dogleg_alley",
+        "dye_works",
+        "tannery"
+      ],
+      "travel_advances_day": false,
+      "happenings": [
+        {
+          "id": "outer_ring_lessons",
+          "label": "the daily lessons",
+          "description": "A cluster of Outer Ring children sit on upturned crates near the chapel steps, half-listening to the local priest work through letters, sums, and the odd piece of history. Some are rapt. Most are just waiting to be let go.",
+          "hours": [
+            9,
+            10,
+            11
+          ],
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "npc_ids": [
+            "father_sagart",
+            "peck"
+          ]
+        },
+        {
+          "id": "avenue_hiring_crowd",
+          "label": "the hiring crowd",
+          "description": "A knot of labourers has gathered where the Seventh meets the side lanes, waiting on the gangmasters who come at dawn to pick crews for the day. There is a low, restless murmur, and a lot of people trying not to look desperate.",
+          "hours": [
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "npc_ids": [
+            "keld_hevrath"
+          ]
+        },
+        {
+          "id": "avenue_soup_line",
+          "label": "the soup line",
+          "description": "A trestle has been set against the wall, a great pot steaming on it, and a line of the city's poorest shuffling past for a ladleful and a kind word. Someone in plain clerical grey is doing the ladling.",
+          "hours": [
+            11,
+            12,
+            13,
+            14
+          ],
+          "npc_ids": [
+            "father_sagart"
+          ]
+        },
+        {
+          "id": "avenue_commotion",
+          "label": "a commotion down the street",
+          "description": "Raised voices ahead resolve into a proper shouting match - two carters, a blocked lane, a wheel locked against a wheel - and a small crowd gathering to enjoy it. It will come to nothing, probably.",
+          "hours": [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          "chance": 0.3
+        }
+      ],
+      "flavour_texts": [
+        {
+          "condition": "default",
+          "text": "Outer Seventh Avenue runs dead straight from the north gate toward the heart of the city — one of the eight numbered avenues that spoke the rings, this one pointing north-west. Out here it is dense, loud, and sharp with the reek of the dye-works; locals just call it the Seventh. Beyond it the ring sprawls into crooked streets with older, stranger names. You have arrived in Antitheis."
+        },
+        {
+          "condition": "evening",
+          "hours": [
+            18,
+            19,
+            20,
+            21,
+            22
+          ],
+          "text": "The Seventh is louder by night, not quieter — the day shift spilling into the cookfire stalls and the cheap taverns, the dye-works gone dark but the smell still hanging over everything."
+        }
+      ]
+    },
+    {
+      "id": "mid_city_plaza",
+      "name": "Seventh Square",
+      "region": "antitheis",
+      "connected_locations": [
+        "antitheis_outer_ring",
+        "worn_lintel",
+        "tailors_bridge",
+        "dallec_townhouse",
+        "bluebells_garden",
+        "piping_corps",
+        "auction_house",
+        "mid_city_school",
+        "the_orangery",
+        "seventh_square_library",
+        "krad_rooms"
+      ],
+      "travel_advances_day": false,
+      "flavour_texts": [
+        {
+          "condition": "default",
+          "text": "Seventh Square is where the Seventh widens at the heart of the Mid City — one of only four such squares the city throws out, where the odd-numbered avenues cross it. It is the busiest stretch of the Seventh, ringed with shopfronts and stalls and the doors of half the places worth knowing. The ruin gardens show green to the east, and the Onnoris runs somewhere below."
+        }
+      ]
+    },
+    {
+      "id": "worn_lintel",
+      "name": "The Worn Lintel",
+      "region": "antitheis",
+      "connected_locations": [
+        "mid_city_plaza",
+        "worn_lintel_backroom"
+      ],
+      "travel_advances_day": false,
+      "flavour_texts": [
+        {
+          "condition": "default",
+          "text": "The Worn Lintel is low-ceilinged and smoke-darkened, the kind of place that has absorbed decades of other people's evenings. A fire burns at the far end. The door frame is rubbed pale and smooth at shoulder height — regulars tap it or run a hand along it on the way in, a small habit kept up for longer than anyone can say, and the lintel it has worn down gives the place its name."
+        },
+        {
+          "condition": "empty",
+          "text": "The Worn Lintel is quiet. Behind the bar there is no one."
+        }
+      ]
+    },
+    {
+      "id": "tailors_bridge",
+      "name": "Tailor's Bridge",
+      "region": "antitheis",
+      "connected_locations": [
+        "mid_city_plaza",
+        "collegium",
+        "antitheis_inner_ward"
+      ],
+      "travel_advances_day": false,
+      "flavour_texts": [
+        {
+          "condition": "default",
+          "text": "Tailor's Bridge spans the ravine between the two halves of the Mid City. The studios on its sides display everything from plain cloth to things that seem to have opinions."
+        }
+      ]
+    },
+    {
+      "id": "bluebells_garden",
+      "name": "Bluebells",
+      "region": "antitheis",
+      "connected_locations": [
+        "mid_city_plaza",
+        "undermarket"
+      ],
+      "travel_advances_day": false,
+      "flavour_texts": [
+        {
+          "condition": "default",
+          "text": "A ruin garden enclosed by Pre-Fall limestone walls. Bluebell flowers grow in the cracks of the old stone and are strung along the arches in dried bunches. Benches, a brewery tap, the smell of something warm from somewhere nearby."
+        },
+        {
+          "condition": "evening",
+          "hours": [
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "text": "Bluebells is full tonight. A three-piece plays in the far corner — a carved horn, a plucked string, loose percussion — the music sitting just below the conversation without demanding attention. The bluebell bunches catch the lamplight."
+        },
+        {
+          "condition": "morning",
+          "hours": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "text": "Bluebells is quiet this early. A few people with cups. The bluebells along the old arch move in the ravine draft."
+        },
+        {
+          "condition": "empty",
+          "text": "Bluebells is empty. The benches are wet with last night's dew. The bluebell bunches hang still."
+        }
+      ],
+      "happenings": [
+        {
+          "id": "bluebells_band",
+          "label": "the band",
+          "description": "Three players are tucked under the old arch in the far corner - a carved horn, a plucked string, loose percussion - working through something low and easy. A few listeners have drifted over with their cups.",
+          "hours": [
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "days": [
+            5,
+            6
+          ],
+          "npc_ids": [
+            "dagovir_cattoc"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dallec_townhouse",
+      "name": "The Dallec Townhouse",
+      "region": "antitheis",
+      "connected_locations": [
+        "mid_city_plaza"
+      ],
+      "travel_advances_day": false,
+      "flavour_texts": [
+        {
+          "condition": "default",
+          "text": "A mid-city townhouse, three storeys of dressed limestone with a small garden behind. The upper floors are residential. The courtyard is quiet, herbs and a few flowers in pots along the wall."
+        },
+        {
+          "condition": "evening",
+          "hours": [
+            20,
+            21,
+            22,
+            23
+          ],
+          "text": "A lamp is burning in the upper window. Someone is still awake."
+        },
+        {
+          "condition": "empty",
+          "text": "The townhouse is quiet. Everyone is out."
+        }
+      ]
+    },
+    {
+      "id": "piping_corps",
+      "name": "Imperial Piping Corps — Water Services",
+      "region": "antitheis",
+      "connected_locations": [
+        "mid_city_plaza",
+        "auction_house"
+      ],
+      "travel_advances_day": false,
+      "open_hour": 7,
+      "close_hour": 18,
+      "flavour_texts": [
+        {
+          "condition": "default",
+          "text": "A utilitarian building near the ravine edge. Maps and pressure diagrams cover most of the wall space. It smells of damp stone and pipe sealant."
+        },
+        {
+          "condition": "morning",
+          "hours": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "text": "The corps is busy — engineers moving in and out with rolled plans, carters delivering materials. The work is quiet and technical and perpetual."
+        },
+        {
+          "condition": "empty",
+          "text": "The corps building is locked up. The day's work is done."
+        }
+      ]
+    },
+    {
+      "id": "auction_house",
+      "name": "Brissalby's",
+      "region": "antitheis",
+      "connected_locations": [
+        "mid_city_plaza",
+        "piping_corps"
+      ],
+      "travel_advances_day": false,
+      "open_hour": 8,
+      "close_hour": 17,
+      "flavour_texts": [
+        {
+          "condition": "default",
+          "text": "A wide hall with high ceilings and good lighting — the kind designed to make everything inside it look worth bidding on. The podium at the far end is empty now but carries the weight of recent use."
+        },
+        {
+          "condition": "morning",
+          "hours": [
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "text": "The hall is in business. Lots are arranged along the walls. The auctioneer's voice carries from the podium with a clarity that leaves no ambiguity about the current price."
+        },
+        {
+          "condition": "empty",
+          "text": "The auction house is closed. The lots are covered and the hall is quiet."
+        }
+      ]
+    },
+    {
+      "id": "mid_city_school",
+      "name": "Vernal Street High School",
+      "region": "antitheis",
+      "connected_locations": [
+        "mid_city_plaza",
+        "seventh_square_library"
+      ],
+      "travel_advances_day": false,
+      "open_hour": 8,
+      "close_hour": 16,
+      "flavour_texts": [
+        {
+          "condition": "default",
+          "text": "A mid-city school in the Roman tradition — stone walls, benches, a courtyard used for overflow. House Briganar's seal is above the door."
+        },
+        {
+          "condition": "morning",
+          "hours": [
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "text": "The school is in session. The sound of recitation carries through the open windows."
+        },
+        {
+          "condition": "empty",
+          "text": "The school is closed. The courtyard is empty."
+        }
+      ]
+    },
+    {
+      "id": "antitheis_inner_ward",
+      "name": "Inner Seventh Avenue",
+      "region": "antitheis",
+      "connected_locations": [
+        "tailors_bridge",
+        "house_corruthis",
+        "house_bituris",
+        "house_catubrix",
+        "house_ambarris"
+      ],
+      "travel_advances_day": false,
+      "flavour_texts": [
+        {
+          "condition": "default",
+          "text": "Across the bridge the avenue changes character entirely — wider, quieter, swept. The great house compounds sit behind their walls, gates manned, and you are being watched from the moment you set foot here, even standing at the edge of it."
+        }
+      ]
+    },
+    {
+      "id": "varenne_farmstead",
+      "name": "The Varenne Farmstead",
+      "region": "carvallen",
+      "connected_locations": [
+        "carvallen"
+      ],
+      "travel_advances_day": false,
+      "travel_time_minutes": 20,
+      "flavour_texts": [
+        {
+          "condition": "default",
+          "text": "A working smallholding off the Carvallen road — a low farmhouse, a barn, fields running back toward the treeline. Chickens underfoot, a kitchen garden, the smell of turned earth and woodsmoke. Someone is usually about."
+        },
+        {
+          "condition": "empty",
+          "text": "The farmstead is quiet. The animals are fed and the door is shut. Everyone is out in the fields or gone to market."
+        }
+      ]
+    },
+    {
+      "id": "stool_street",
+      "name": "Stool Street",
+      "region": "antitheis",
+      "connected_locations": [
+        "antitheis_outer_ring"
+      ],
+      "travel_advances_day": false,
+      "flavour_texts": [
+        {
+          "condition": "default",
+          "text": "A crooked lane off the Seventh given over end to end to food stalls — low stools and trestle boards, cookfires and griddles, the smell of a dozen cheap good things at once. People come here to eat standing up, argue, and put off going home."
+        },
+        {
+          "condition": "evening",
+          "hours": [
+            17,
+            18,
+            19,
+            20,
+            21,
+            22
+          ],
+          "text": "Stool Street is at its best after dark. Every stool is taken, the cookfires roaring, the crowd loud with the particular good humour of people eating well for very little."
+        },
+        {
+          "condition": "empty",
+          "text": "Stool Street is shuttered. Cold griddles, stacked stools, a cat working the gutters for scraps."
+        }
+      ]
+    },
+    {
+      "id": "dogleg_alley",
+      "name": "Dogleg Alley",
+      "region": "antitheis",
+      "connected_locations": [
+        "antitheis_outer_ring",
+        "undermarket"
+      ],
+      "travel_advances_day": false,
+      "flavour_texts": [
+        {
+          "condition": "default",
+          "text": "A narrow alley that bends sharp halfway down, so you cannot see the far end from the mouth. It is where people go when they would rather not be seen going anywhere. Somewhere past the dogleg, behind stacked crates and a rot of old doors, there is a way down."
+        },
+        {
+          "condition": "empty",
+          "text": "The alley is empty, or looks it. Water drips somewhere. The bend hides the rest."
+        }
+      ]
+    },
+    {
+      "id": "dye_works",
+      "name": "The Dye-works",
+      "region": "antitheis",
+      "connected_locations": [
+        "antitheis_outer_ring"
+      ],
+      "travel_advances_day": false,
+      "open_hour": 6,
+      "close_hour": 18,
+      "flavour_texts": [
+        {
+          "condition": "default",
+          "text": "The dye-works is the thing the whole Seventh smells before it sees — great vats of colour and stink, steam off the boiling troughs, skeins hung dripping on lines overhead. Hard, wet, coloured work, done by people stained to the elbow."
+        },
+        {
+          "condition": "empty",
+          "text": "The vats sit still and cooling, the day's skeins hung to drip. The smell stays whether the workers do or not."
+        }
+      ]
+    },
+    {
+      "id": "tannery",
+      "name": "The Tannery",
+      "region": "antitheis",
+      "connected_locations": [
+        "antitheis_outer_ring"
+      ],
+      "travel_advances_day": false,
+      "open_hour": 6,
+      "close_hour": 18,
+      "flavour_texts": [
+        {
+          "condition": "default",
+          "text": "The tannery sits at the city's edge, downwind of everything and hard by the water, because no one will have it any closer. The reek of lime and hide and worse gets into your clothes at the gate. The work here is the lowest paid and the hardest to wash off."
+        },
+        {
+          "condition": "empty",
+          "text": "The tanning pits sit uncovered, the hides in their liquors. Nobody is about, and the smell does not care."
+        }
+      ]
+    },
+    {
+      "id": "undermarket",
+      "name": "The Undermarket",
+      "region": "antitheis",
+      "connected_locations": [
+        "dogleg_alley",
+        "bluebells_garden",
+        "the_pits"
+      ],
+      "travel_advances_day": false,
+      "travel_time_minutes": 10,
+      "flavour_texts": [
+        {
+          "condition": "default",
+          "text": "Down past the hatch and the ladders the Undermarket opens out — a long Pre-Fall hall the old world left buried, lamplit and busy in all that dark. Anyone who knows the way in can come down, and plenty do; stalls and lock-ups line the walls, every trade the city above will not sell you changing hands quietly. It is watched, and you are clocked the moment you arrive, but no one stops you."
+        },
+        {
+          "condition": "empty",
+          "text": "The market runs low and quiet, the lamps turned down, a few figures moving between the stalls. Somewhere further down, past the last light, the air stops moving right."
+        }
+      ]
+    },
+    {
+      "id": "seventh_square_library",
+      "name": "Seventh Square Public Library",
+      "region": "antitheis",
+      "connected_locations": [
+        "mid_city_plaza",
+        "mid_city_school"
+      ],
+      "travel_advances_day": false,
+      "open_hour": 8,
+      "close_hour": 20,
+      "flavour_texts": [
+        {
+          "condition": "default",
+          "text": "A public library off Seventh Square — high shelves, long reading tables, the particular hush of a place where people have agreed to be quiet together. One of the few warm rooms in the Mid City that asks nothing of you but silence."
+        },
+        {
+          "condition": "empty",
+          "text": "The reading tables are empty, the lamps low. Rows of shelves recede into the quiet."
+        }
+      ]
+    },
+    {
+      "id": "the_orangery",
+      "name": "The Orangery",
+      "region": "antitheis",
+      "connected_locations": [
+        "mid_city_plaza"
+      ],
+      "travel_advances_day": false,
+      "open_hour": 9,
+      "close_hour": 21,
+      "flavour_texts": [
+        {
+          "condition": "default",
+          "text": "The Orangery is a tea house built like a glasshouse, all light and green and quiet money, given over to rare fruit teas that cost more than a labourer earns in a week. It is where the Mid City's comfortable and the Inner Ward's curious come to be seen being at leisure."
+        },
+        {
+          "condition": "empty",
+          "text": "The glasshouse stands empty between sittings, the little tables set, steam rising off a pot no one has come for yet."
+        }
+      ]
+    },
+    {
+      "id": "collegium",
+      "name": "The Collegium",
+      "region": "antitheis",
+      "connected_locations": [
+        "tailors_bridge"
+      ],
+      "travel_advances_day": false,
+      "open_hour": 8,
+      "close_hour": 20,
+      "flavour_texts": [
+        {
+          "condition": "default",
+          "text": "The Collegium rises across the bridge from the Mid City, the Empire's great house of learning, all cold stone and colder scholarship. In its grand hall stands the Astrologer's Clock, twice the circumference of any clock a mortal maker should have managed, its dials turning through reckonings no one now living can read."
+        },
+        {
+          "condition": "empty",
+          "text": "The grand hall is nearly empty, the great clock ticking to itself. A single old figure is winding it, and does not look up."
+        }
+      ]
+    },
+    {
+      "id": "house_corruthis",
+      "name": "The Corruthis Household",
+      "region": "antitheis",
+      "connected_locations": [
+        "antitheis_inner_ward"
+      ],
+      "travel_advances_day": false,
+      "flavour_texts": [
+        {
+          "condition": "default",
+          "text": "House Corruthis keeps its compound behind a high wall and a gate that does not open for the unannounced. A guard stands at it. Past him you can see a courtyard, a fig tree, the warm-lit windows of a house that plainly wants for nothing. You are not getting in without a reason it will accept."
+        },
+        {
+          "condition": "empty",
+          "text": "The gate is shut, the guard at his post. The house behind the wall goes about its evening without you."
+        }
+      ]
+    },
+    {
+      "id": "house_bituris",
+      "name": "The Bituris Compound",
+      "region": "antitheis",
+      "connected_locations": [
+        "antitheis_inner_ward"
+      ],
+      "travel_advances_day": false,
+      "flavour_texts": [
+        {
+          "condition": "default",
+          "text": "The Bituris compound is the largest wall on the avenue and the least welcoming, the Gospel of Man cut in stone above a gate flanked by men who watch you for exactly as long as you are in sight. A good deal of the Empire's faith is administered from here. You do not linger."
+        }
+      ]
+    },
+    {
+      "id": "house_catubrix",
+      "name": "The Catubrix Compound",
+      "region": "antitheis",
+      "connected_locations": [
+        "antitheis_inner_ward"
+      ],
+      "travel_advances_day": false,
+      "flavour_texts": [
+        {
+          "condition": "default",
+          "text": "House Catubrix keeps a martial compound, drilled and orderly, the sound of the yard carrying over a wall topped with old iron. Catubrix holds the watch and the soldiery, and the place has the plain hard look of somewhere that trains men to hold a line."
+        }
+      ]
+    },
+    {
+      "id": "house_ambarris",
+      "name": "The Ambarris Compound",
+      "region": "antitheis",
+      "connected_locations": [
+        "antitheis_inner_ward"
+      ],
+      "travel_advances_day": false,
+      "flavour_texts": [
+        {
+          "condition": "default",
+          "text": "House Ambarris runs the gates, the tolls, and the paperwork of who may come and go, and its compound has the crowded, clerkish bustle of a place where records are kept and money counted. Barracks along one side, a queue of petitioners along the other."
+        }
+      ]
+    },
+    {
+      "id": "the_pits",
+      "name": "The Pits",
+      "region": "antitheis",
+      "connected_locations": [
+        "undermarket"
+      ],
+      "travel_advances_day": false,
+      "travel_time_minutes": 5,
+      "happenings": [
+        {
+          "id": "fight_night",
+          "label": "a fight on the sand",
+          "description": "The gallery is packed and roaring, coin changing hands faster than the eye can follow, and down on the raked sand two figures are circling. The crowd wants what it always wants.",
+          "hours": [
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "npc_ids": [
+            "snowbear",
+            "vidal"
+          ]
+        }
+      ],
+      "flavour_texts": [
+        {
+          "condition": "default",
+          "text": "Off the market hall the ground opens into the pits — a ring of raked sand under a rough timber gallery, the sand dark in patches that do not wash out. This is where the underside comes to bet and roar. Between bouts it smells of blood and lamp-oil and spilled drink."
+        },
+        {
+          "condition": "evening",
+          "hours": [
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "text": "The pits are packed and loud, the gallery full, coin moving hand to hand. Down on the sand two figures are circling, and the crowd is already on its feet."
+        },
+        {
+          "condition": "empty",
+          "text": "The pits are empty between shows, the sand raked flat, the gallery dark. It is smaller and sadder without a crowd, and the stains are easier to see."
+        }
+      ]
+    },
+    {
+      "id": "sleeping_hound_room",
+      "name": "Rooms above the Sleeping Hound",
+      "region": "carvallen",
+      "connected_locations": [
+        "sleeping_hound_bar"
+      ],
+      "travel_advances_day": false,
+      "travel_time_minutes": 0,
+      "flavour_texts": [
+        {
+          "condition": "default",
+          "text": "The narrow stair off the back of the common room leads up to the lodging rooms over the Sleeping Hound, where the family and the odd guest sleep. A couple of doors off a low landing, the smell of the kitchen coming up through the boards."
+        }
+      ]
+    },
+    {
+      "id": "bren_rooms",
+      "name": "Bren's Rooms",
+      "region": "carvallen",
+      "connected_locations": [
+        "carvallen"
+      ],
+      "travel_advances_day": false,
+      "travel_time_minutes": 0,
+      "flavour_texts": [
+        {
+          "condition": "default",
+          "text": "A modest set of rooms off the Carvallen road, plain and well-kept, the home of a man who has spent his life on the timber and put a little by. A lamp in the window of an evening."
+        }
+      ]
+    },
+    {
+      "id": "krad_rooms",
+      "name": "Krad's Rooms",
+      "region": "antitheis",
+      "connected_locations": [
+        "mid_city_plaza"
+      ],
+      "travel_advances_day": false,
+      "travel_time_minutes": 0,
+      "flavour_texts": [
+        {
+          "condition": "default",
+          "text": "A scholar's rented rooms off Seventh Square, every surface lost under papers, maps, and notebooks in a cramped travelling hand. It smells of ink and old paper, and there is nowhere comfortable to sit that is not also holding a stack of pages."
+        }
+      ]
+    },
+    {
+      "id": "worn_lintel_backroom",
+      "name": "The Worn Lintel — Back Room",
+      "region": "antitheis",
+      "connected_locations": [
+        "worn_lintel"
+      ],
+      "travel_advances_day": false,
+      "travel_time_minutes": 0,
+      "flavour_texts": [
+        {
+          "condition": "default",
+          "text": "The back room behind the bar of the Worn Lintel, where the stores are kept and the keeper takes her few private hours. A cot, a banked fire, jars of things put up for the winter along the shelves."
+        }
+      ]
+    }
+  ]
+}

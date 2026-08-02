@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dotnet build *)",
+      "Bash(awk -F'|' '\\($7==\"\" \\){print \"row \"$2\" \\(\"$3\"\\) — no verdict\"}')",
+      "mcp__claude-in-chrome__tabs_context_mcp"
+    ]
+  }
+}

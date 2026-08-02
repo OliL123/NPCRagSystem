@@ -1,0 +1,371 @@
+# ATH — AN EXPANDED ACCOUNT
+### *Further Notes on the First Continent*
+*Krad Kraps*
+
+---
+
+*A note before continuing: what follows is a more thorough account of Ath than the overview in the preceding pages could accommodate. I have spent three years within the borders of the Viriman Empire — longer than I have spent anywhere else in my travels — and I find that the further I go in writing about it, the less I feel I have captured it faithfully. Ath resists the neat compression of a chapter. It is a place defined by what it will not say, what it has ground away from its walls, what it keeps in the dark below its streets. Some of that, I have tried to record honestly. Some of it, I suspect, has recorded me.*
+
+*For purposes of organisation I have divided this account into the land itself, then the Empire's history and governance, then the shape of its cities and settlements, then the texture of daily life, and finally, as briefly as I can manage without being dishonest, the matters the Empire would rather I not mention at all.*
+
+---
+
+## THE LAND AND ITS CHARACTER
+
+I have heard geographers from other continents describe Ath as beautiful. They are not wrong, but they are also saying something they could not say if they had spent enough time here to understand it properly. The beauty of Ath is the beauty of a thing that has been broken and has not fully healed: genuine in places, and in others a kind of scar tissue that the light catches well from a sufficient distance.
+
+The Gulf Coast, in the right season, is genuinely striking. The water of Fisher's Gulf has a deep and specific blue that I have not found matched elsewhere — something in the mineral content of the volcanic runoff that catches the afternoon light and holds it. The temperate forests of the Interior smell of cedar and wet stone in the rain season. The Aldare Plateau at dusk, when the light falls flat and gold across the steppes and there is no sound but the wind, has a stillness to it that seems, and I choose this word carefully, almost sacred.
+
+That word — *sacred* — catches in the throat here. I am leaving it in, because that tension is something any honest account of Ath must sit with.
+
+The land is old. It wears that age in a way that is neither comfortable nor entirely tragic. Across the Interior forests, particularly the northern reaches, one encounters the remnants of structures that predate any living memory and most recorded history: foundations of dressed stone too precisely fitted to be salvage, worn beyond legibility by centuries of rain. Stretches of paved road that emerge from the undergrowth and terminate nowhere, connecting ruin to ruin. Antitheis's own cartographers have catalogued many of these sites, and their official position is that they are simply Pre-Fall settlements swallowed by forest when the population collapsed. This is almost certainly true. What their notes cannot capture is the quality of those places — the sense that whatever was destroyed here was destroyed completely, and in a hurry.
+
+The continent divides naturally into three distinct regions, different enough in character that travellers sometimes struggle to believe they belong to the same empire.
+
+### THE GULF COAST
+
+The Gulf Coast is the most populous and most prosperous. Fisher's Gulf's warm, nutrient-dense waters — fed by volcanic ash from the southern vents and sheltered from open sea currents by the geological features described earlier in this volume — produce an abundance of fish that has defined the culture of every settlement along the shore. The towns here smell of salt and rendered fat and woodsmoke, and carry the particular noise of coastal industry: boats working in and out, nets being mended on the docks, the haggling of fish markets that begin before sunrise and do not much relent before nightfall. The Gulf is the Empire's larder. Without it, Antitheis would not exist in its current form.
+
+The coral reefs of the inner Gulf are among the more remarkable natural features of Ath, and they are heavily managed by the Empire, which has maintained fishing quotas since the early Rebuilding period. Damage to the reef is treated as damage to Imperial property and carries corresponding penalties. This has led to a complex and not always harmonious relationship between the fishing communities, who have worked these waters for generations and trust their own read of the reef's condition, and the Imperial quota-keepers, who arrive from Antitheis with ledgers and tend to leave before the winter storms.
+
+The volcanic vents responsible for the Gulf's fertility also produce, in years of higher activity, a low-lying haze along the southern shore that the locals call the grey breath. In these years the harvests near the coast are extraordinary and the air smells faintly of sulphur and the older inhabitants speak of it with a complicated satisfaction, the way people speak of a powerful thing they have learned, over generations, not to entirely trust.
+
+### THE INTERIOR
+
+The Interior is slow rivers and deep forest and gradual hills that would become mountains if they had any ambition. Most of the Empire's grain is grown here, in clearings carved from woodland by generations of sustained labour. The soil is darker and deeper than the coast's volcanic-enriched earth and it rewards patient farming more than dramatic farming, which suits the Interior temperament. Villages here are quiet and tend to be suspicious of strangers in a way the Gulf towns are not. They have longer memories, in part because they have less to distract them from the past.
+
+The Interior rivers are navigable for much of their length, and river trade — flat-bottomed boats moving grain and timber down to the coastal towns and returning with salt fish and Gulf goods — is the circulatory system of the Imperial economy. The river towns that have grown up at the navigable junctions are characterised by a particular kind of practical cosmopolitanism: they deal in goods and information from both directions and tend to be better informed about the broader state of the Empire than either the isolated Interior villages or the inward-looking Gulf settlements.
+
+There are ruins in the Interior forests that the Empire officially attributes to the Pre-Fall period and, when pressed, to specifically non-divine Pre-Fall civilisations. The Imperial position on ruins is consistent: they are historical. They are human. Whatever was worshipped in them is gone and was never worth worshipping. Some of the ruins are very large, and I have seen cartographers' notes describe a particular site in the northern Interior — a set of foundations covering nearly a square kilometre, arranged in a radial pattern around a central absence — with a terseness that suggests they found something they did not know how to write down.
+
+### THE ALDARE PLATEAU
+
+The Aldare Plateau is cold and sparse and quiet in a way that the Interior's quiet is not. Where the forest quiet is full — with birds, with wind through leaves, with the sound of water — the plateau quiet is empty. It is the difference between a room that has been vacated and a room that was never entered.
+
+Settlements here are small and widely spaced. The largest is a community called the Notch, a name that refers to a fold in the plateau's southern face that provides shelter from the predominant winds, and which houses perhaps four hundred people. Most settlements are smaller: herding communities of fifty or sixty, moving between seasonal pastures with their livestock, living in structures that are built to be dismantled and reassembled elsewhere. The plateau people are technically subjects of the Viriman Empire. Imperial administrative control here is light, consisting primarily of a small garrison at the Notch that collects an annual head-count and departs. The soldiers who do this duty are generally not volunteers for it.
+
+The plateau people are distinct enough from the coast and forest populations that some scholars have suggested they descend from a separate founding group, or arrived on Ath from elsewhere in an earlier period. They do not discuss their origins with outsiders. They do not discuss much with outsiders. What they do discuss, among themselves, in practices that the Empire has noted and chosen to address slowly and from a distance, I will return to.
+
+---
+
+## A HISTORY OF THE EMPIRE
+
+There is a joke that circulates among the clerks of Antitheis, which I record here not for its humour but for what it reveals: *"Viriman history begins on the first day we stopped looking up."*
+
+### BEFORE THE FALL
+
+We know very little about the Pre-Fall period on Ath with any confidence. What we have are fragments — partial records recovered from sealed rooms and buried caches, annals that have survived in states ranging from damaged to nearly illegible, and the physical evidence of a landscape that was clearly once more heavily populated and more heavily altered. What these fragments suggest is not a single devout civilisation but a crowded and pluralistic one, thick with belief of every kind and pointed in every direction at once.
+
+To understand any of it, one must first accept the organising principle of the old world — the thing every later Imperial doctrine is a reaction against — which was this: belief was power, directly and without metaphor. What enough people held to be real became real, and a being that gathered belief to itself gathered, with it, the power to bend the world. "Deity," in the old understanding, was therefore not a category of thing but a *threshold* of power: a rank that people conferred and could withdraw, not a species one was born into. It spanned an enormous range. At the low end sat local prophets — figures like the one the Northern Road still keeps its village around — carried by little more than a district's faith. Above them, stranger things: a power the old texts say held several selves at once, each feeding the others; a child of the sleeping god who is said to have dreamed a small world that now believes in itself and needs no further dreamer. And at the summit, recognised as among the very greatest, Phantasis — the sleeping god, the dreamer whose belief in his own dreams is held to have made much of what is real. He was the most powerful and the least present: because he slept, he played almost no part in the daily lives of the people who named him greatest.
+
+The old texts point belief in every direction — to the dreaming cosmos, to the powers at the margins of divinity, the fly that carries the dead, the maw beneath the city, the keeper of perfect hours. There was, to put it plainly, more belief loose in the world then, and therefore more power loose in it.
+
+What happened to all that belief is the single most consequential fact in the history of Ath.
+
+### THE FALL
+
+I covered the broad shape of what is called the Fall in the opening chapter of this volume, and I do not intend to repeat it at length here, partly out of economy and partly because I find that the further I am from the events the more I distrust my ability to describe them accurately. What I wrote in Chapter One was drawn from the best available scholarship. What I will add here, specific to Ath, is this:
+
+The Fall did not begin with a waking in any ordinary sense. It began with a theft. Someone — a person, the accounts agree on that much, though on little else, and the Empire has seen to it that they agree on less with each passing year — set out to hijack the dream itself: to bend the sleeping god's dreaming toward a single life. To be dreamed into a kingdom of riches, or power without limit, or the quiet death of chosen enemies. It may even have worked, for a while. But a dream steered against its own logic accumulates discrepancies, and Phantasis, feeling the seams of his own dreaming pulled out of true, did the one thing no one had reckoned on: he grew *aware*. He began to dream lucidly. And a lucid Phantasis is not a sleeper anyone can steer — he is a mind awake inside the thing that makes the world.
+
+He killed the hijacker first, unmaking their existence within the dream as easily as a man lets go of a thought. Then, feeling for the first time in an age the full shape of what had been done to his dreaming and in his name, he judged the rest, and found them guilty of the same hubris — reaching to use what they had never understood. Reality warped as his lucid attention turned outward: the sky over Ath was the wrong colour for seventeen days, the rivers ran slow and then stopped. He gathered the people who had worshipped him through the long sleep and turned them into the instrument of a crusade against everyone else — a campaign of killing that did not stop until the population of Ath stood at somewhere between two and three percent of what it had been. Whatever the gentler later accounts imply, most of the dead did not die peacefully. They died as people die in crusades.
+
+The survivors he judged separately, and meant for something worse than the sword. He had decided they were unworthy of what he had given them, and set about condemning them to the sleep without end — which in the old tongue was only ever a softer word for death. The records recovered from sealed rooms, of people who lay down where they stood and simply did not wake, their faces peaceful, are read by some scholars as the leading edge of that sentence beginning to fall. Whether it would in time have taken the continent entire, no one can say — because before it was finished, Phantasis drove a blade through his own chest and ended his own existence. That he is dead is the least disputed fact in the whole account. Why the god who had just unmade almost everything then unmade himself is the question the Empire will not ask and the folk cannot stop asking.
+
+And the loss of people was also a loss of belief, which in the old world was the same as a loss of power. As the believers died, the other powers — the walking gods, the nature-forces, the small things at the margins of divinity — lost the belief that had made them and held them together, and lost, with it, themselves. Many did not merely weaken. They came apart in mind and character, and what survives of them scattered through the world now is diminished, broken, and in more than one case, plainly mad.
+
+These accounts were recovered, translated, and then removed from the publicly accessible archive in Antitheis. I read them in the office of a scholar who asked not to be named and who asked me, when I left, not to return. The continent did not simply lose people; it lost the context that made the people make sense — the roads that connected them, the institutions that organised them, the shared understanding of what the world was and what it owed them.
+
+### THE ROVING AND THE REBUILDING
+
+What followed the Fall is called the Roving Period in official Imperial scholarship, and it lasted, depending on how one defines its end, somewhere between forty and eighty years. During this time there was no organised governance on Ath. Survivor groups formed and fragmented and reformed. The roads that remained passable were not safe. The larger Pre-Fall settlements, those that had survived structurally, were inhabited by whoever was willing to defend them.
+
+The emotional character of the Roving Period is, I think, the most important thing to understand about the Viriman Empire, because the Empire that eventually emerged is fundamentally a response to it. But it was not, while it was happening, an age of directed rage. It was an age of survival. With no governance, no safe roads, and a fraction of the resources a functioning society requires, what people carried out of the Roving was the daily, grinding work of staying alive in a world that had been all but emptied. Strongmen carved out territories and lost them; bands formed for protection and turned on one another over grain and salt; the acts recorded from those decades are, for the most part, not the acts of the furious or the faithful but of the desperate. The resentment of Phantasis was there, underneath it all — the understanding that this had been done to them, deliberately, by a power that had weighed them and found them wanting — but through the Roving it stayed a low and buried thing. It would not be forged into a doctrine until there was an Empire stable enough to need one.
+
+The founding of the Viriman Empire is officially dated to the third year of what is now called the Rebuilding Era, when the survivor-commander who would become the first emperor united the Gulf Coast settlements under a single administrative structure. Other historians argue that this date is retroactively applied and that the Empire as a functioning institution took several more decades to resemble its current form. Both positions are probably correct in different respects. What is not disputed is the document that is now called the First Excision Text — partial, fire-damaged at its edges, housed in the Once Lost Forever Found in Antitheis — and the passage from it that has since been cut into the stone above the western gate of every Imperial city:
+
+> *"We were dreamed. We will not be dreamed again."*
+
+### THE SEVERANCE
+
+The Excision is both a historical event and an ongoing doctrine. As a historical event, it refers to the period of roughly fifty years following the Empire's founding during which the systematic removal of divine acknowledgement from the built and cultural landscape of Ath was conducted. Temples were pulled down or repurposed. Religious images were defaced. The names of divine beings were removed from public inscriptions and, where removal was not possible, ground smooth. In official documents, references to divine entities that could not be simply deleted were replaced with the notation *the unnamed* — which preserved grammatical coherence while refusing the entity the dignity of a name.
+
+This was not, in its early period, a subtle or careful campaign. The records from the first century of the Rebuilding Era are not comfortable reading, and the Empire does not make them widely available. What emerged from that period was a state that retained the memory of divinity — it could hardly erase it, given the evidence carved into the landscape and encoded in the language — but refused it any form of veneration.
+
+The Excision as an ongoing doctrine means something somewhat different from what it meant at the Empire's founding. The early Excision was reactive: the rage of survivors. The contemporary Excision is institutional: a set of laws, social norms, and administrative practices that together work to prevent the re-establishment of religious practice. The laws are specific and enforced. The social norms are perhaps more effective than the laws. In Antitheis, a child who asks a parent why there are smooth patches on the old columns, why the basin in the Once Lost Forever Found is dry, why the inscription above the north gate is incomplete, will generally receive an answer that is correct in its facts and misleading in its emphasis. The child learns what happened. The child is not encouraged to feel anything complicated about it.
+
+### THE WAKING EMPEROR
+
+The Emperor of the Viriman Empire does not hold a divine title, which is itself a title. The formal mode of address is *the Waking* — a designation that anyone from Ath will recognise as the deliberate inversion of what Phantasis represented. To be waking is to be present. To be present is to be responsible. To be responsible is to be, in the Empire's accounting, the only kind of power worth acknowledging.
+
+The Emperor is not described as sacred. The Emperor is not described as blessed. The Emperor is described, in formal documents, as *the living proof* — a phrase that is never given an explicit referent, because it does not need one. The living proof that humanity does not require a dream to justify its existence.
+
+Whether the current Emperor is a good ruler, a wise one, a cruel one — these are questions I am not in a position to answer safely, and I shall not try. What I can say is that the institution of the Emperor is embedded in Viriman culture at a depth that makes it effectively irreplaceable by anything that does not carry a comparable weight. The Excision required something to fill the space it created. It filled that space with a human being. Whether this was genius or expedience or both, I genuinely cannot say.
+
+---
+
+## GOVERNANCE AND THE GREAT HOUSES
+
+The Viriman Emperor does not rule alone, though the official mythology of the Empire would prefer this went unremarked upon. In practice, the Emperor governs through five great houses — old families whose positions within the Imperial apparatus predate most living memory and whose holdings of power are structural rather than ceremonial. They are not lords in the way that other continents understand lordship, with territories and levies and the feudal machinery of the soil. They are the machinery itself. Each house holds a specific function of governance, and together they constitute the mechanism by which an empire of nearly a million people is actually administered day to day.
+
+The Emperor sits above this structure as final authority and living symbol. In practice, decisions of real consequence require the agreement, or at least the non-resistance, of the relevant house. An Emperor who loses the confidence of the council governs, as the saying goes in the Inner Ward, *a very small room*. This is not spoken about in public. It does not need to be.
+
+I want to be clear, before describing these houses, that what follows is assembled from three years of observation, indirect conversation, and the occasional document I was not strictly supposed to read. Any member of any great house who feels misrepresented by what I have written is welcome to send me a letter. I shall probably not be at the address they have for me.
+
+### HOUSE FERRUN — THE IRON HOUSE
+
+House Catubrix holds the military: the garrison commands, the soldier recruitment levies, the strategic deployment of Imperial forces across Ath. They are the house that wins wars, and they are aware of this in the way that people who win wars tend to be aware of it — constantly, and with a patience that is sometimes mistaken for restraint.
+
+Their seat in Antitheis is the most obviously fortified of any house, built against the Inner Ward's northern wall with a functional grimness that might charitably be called architectural honesty. No rotunda. No decorated baptisterium. The entrance is a gate, which is open when it needs to be and closed when it does not, and the distinction between the two states is entirely at Ferrun's discretion.
+
+The house has, over the Rebuilding period, accumulated a reputation for direct methods and minimal paperwork. They are not known for cruelty as such — cruelty implies passion, and House Catubrix's preferred register is something more like indifference. Obstacles are removed. The documentation follows later, if at all.
+
+Their relationship with House Briganar, which controls the census and hence the recruitment rolls Ferrun depends on, is the longest-running administrative cold conflict in the Empire. Both houses understand the mutual dependency. Neither has ever acknowledged it in writing.
+
+### HOUSE MARET — THE COUNTING HOUSE
+
+House Briganar controls the census, the administrative records, the baptisteria registrations, the tax ledgers, and the official correspondence infrastructure of the Empire. They know where everyone is, what everyone owns, what every citizen is on record as having done or said or owed. In a state defined as much by what it has erased as by what it has built, the people who control the records control the definition of the past.
+
+This is a quiet kind of power, and House Briganar cultivates it quietly. Their representatives in Antitheis are unfailingly courteous and occasionally terrifying. They rarely initiate anything openly. They tend to be present at the moment when other houses need something confirmed, or clarified, or formally registered, and the form that confirmation takes carries, always, a trace of their preference.
+
+The house's internal culture prizes precision and documentation above almost everything else. Their great hall in the Inner Ward is less a residence than a working archive, its walls lined with the record-rolls of two centuries of Imperial administration. New members of the house are said to spend their first year doing nothing but reading. I asked a junior Maret functionary whether this was true and she said, without particular expression, that she found it a useful description of every year she had worked there.
+
+### HOUSE EDRIS — THE WARDEN HOUSE
+
+House Bituris holds the Excision mandate: the investigation and suppression of illegal religious practice, the informant networks, the authority to detain and examine individuals suspected of devotional activity. They are, in the formal language of the Imperial charter, the *guardians of the Waking world* — the house most directly responsible for ensuring that what happened to the Pre-Fall civilisation does not happen again.
+
+It is, on its face, the most philosophically coherent of the five houses. The Excision must be enforced by someone, and better a dedicated institutional apparatus than ad hoc persecution at the local garrison level. House Bituris genuinely believes this. Most of its members are sincere, disciplined, and possessed of the particular moral conviction that comes from doing terrible things in service of a principle you consider sound.
+
+What I will say about House Bituris — carefully, and in the full awareness that they have informants in considerably more places than anyone outside the house tends to assume — is this: the house that investigates heresy has the most to gain from heresy persisting, and the most reason to know exactly how much of it exists at any given moment without quite eliminating it. An empire with no religious threat requires no Warden House. I do not say they manufacture the threat. I say only that they manage it, and that the management is not without benefit to them.
+
+They are the house I know the least about from direct observation. This is not accidental.
+
+### HOUSE CASSIN — THE PROVISION HOUSE
+
+House Ambarris holds the Interior: the agricultural oversight, the road maintenance, the grain levies, the movement of supply across the continent. They are the least immediately impressive of the five houses and, I would argue, the most load-bearing. The Empire's soldiers eat because House Ambarris manages what the Interior farms produce and how it moves to the cities. The Empire's cities exist in their current form because House Ambarris maintains the road network that connects them.
+
+This is unglamorous work, which is perhaps why House Ambarris has cultivated, over the Rebuilding period, a certain studied modesty about their own indispensability. They do not compete visibly with the other houses. They are present at every meeting of the council, they agree with an agreeable number of things, and they have not in living memory done anything that could be described as aggressive. Whether this reflects their genuine character or a long-term strategic patience that the other houses would do well to think harder about, I cannot say with confidence.
+
+What I can say is that in my three years on Ath, I consistently found House Ambarris's representatives to be the best-informed people in any room — about road conditions, harvest yields, the movement of goods, the mood of Interior villages — and that they tended to share this information selectively, and that the selection was not random.
+
+### HOUSE VAEL — THE DEEP WATER HOUSE
+
+House Yambal holds Fisher's Gulf.
+
+I mean this in the administrative sense — maritime trade licensing, harbour taxation, the Imperial fleet, the fishing quota management, the trade routes to Kala and Bazka — and I also mean it in a different sense that I will approach carefully.
+
+The Vaels are the oldest of the five great houses, or at least they claim to be, and the claim is not seriously disputed. Their documented presence on the Gulf Coast predates the Viriman Empire's formal founding, which is a fact the house does not publicise and the Emperor's court does not contradict, and the comfortable coexistence of those two positions tells you something about the nature of their arrangement. They were not incorporated into the Empire when it formed. They agreed to be part of it, which is a different thing, and they have never fully allowed anyone to forget this.
+
+The Vael seat is not in Antitheis. This alone distinguishes them from every other great house. They maintain a sufficient administrative presence in the capital to function at the council level, but their actual residence — the compound that houses the family's senior members, their records, their private affairs — is at Yamhon, on the Gulf. They have been asked, at various points in Imperial history, to relocate to the capital. They have each time found a reason not to, and each time the Emperor of the period has found a reason to accept this, because House Yambal controls the harbour taxation and the fleet, and an Empire without maritime trade is an Empire that eats only what it can grow.
+
+The Gulf is theirs in a way that goes back further than the Empire, and what the Gulf meant to the people of that coast before the Excision is a subject that the official record addresses only in the most general terms. Pre-Fall Gulf Coast populations are described in Imperial scholarship as having maintained *maritime folk practices of a superstitious character*, a phrase that does a great deal of work while revealing very little. What I have gathered from three years of paying attention is somewhat more specific.
+
+The waters of Fisher's Gulf are deep in a way that the Gulf's sheltered, warm, reef-building character would not lead you to predict. The inner reef sits shallow and well-lit, and then, perhaps two hundred metres beyond its outer edge, the seabed drops with an abruptness that the Gulf fishermen will tell you is simply the geology of the place. They will tell you this matter-of-factly, without elaboration, and they will not tell you what they believe lives at the bottom of that drop. Not to outsiders. Not openly.
+
+What I observed in Yamhon, over a stay of some weeks, is this: that the Vael compound faces the sea, which is not unusual. That the Vael compound faces the sea from every room, which is less usual — the architecture has been arranged so that no internal space exists without a view of the water, which in a thick-walled Viriman building requires deliberate and expensive structural choice. That there are markings on the lower stones of the compound's seaward face that are not Imperial decorative vocabulary and not Pre-Fall script of any dialect I have encountered. That the oldest members of the Vael household tend to have, by the time they are old, a quality to their eyes that I found difficult to describe to myself and found I did not wish to describe to anyone else.
+
+I am not stating that House Yambal practices illegal devotion. I am recording what I observed. The reader may form their own conclusions. I would, however, suggest forming them quietly.
+
+### THE SMALLER FAITHS
+
+Below the level of the great houses, scattered across the Interior villages and the plateau settlements and the back streets of the Gulf towns, there exists a residue of folk practice that House Bituris pursues, catches, and removes with a regularity that suggests the supply is, for the moment, outpacing the effort.
+
+These are not, for the most part, organised movements. They are the accumulated weight of human beings who cannot, after two centuries of the Excision, entirely stop reaching for something that is not the Emperor. The Interior villages have their own vocabulary for what they do: the careful herbs left at particular trees, the way certain crossroads are treated on certain nights of the year, the names that old women use for things that live in the forest and that the younger generations are told are merely metaphor. On the plateau, the burial practices persist alongside other things I could not observe directly but whose presence I registered in the way one registers the presence of a room that has recently been vacated.
+
+In the Gulf towns, the folk practices take on a maritime character — the knot-work and boat-eyes I described as non-devotional, I want to revisit that assessment, because the longer I spent in Yamhon the less confident I became that the distinction between decorative tradition and devotional habit is as clean as the Empire requires it to be. The fishermen know something about the water. They have always known something about the water. Whether this constitutes religion in the sense the Excision prohibits is a question for House Bituris, and House Bituris, in the Gulf region, has tended to apply the Excision mandate with a certain latitude that they apply nowhere else on Ath. Whether this latitude is the result of House Yambal's influence, or reflects a practical assessment that the fishing communities are more productive when not actively prosecuted, or reflects something else entirely about the relationship between House Bituris and the Gulf, I was not able to determine.
+
+I suspect all three answers are partially correct.
+
+---
+
+## THE CITIES AND SETTLEMENTS
+
+### ANTITHEIS
+
+Antitheis is not like other cities, and I do not say this in the way that every traveller says it of every city they visit. I say it in the way one says it when one has walked into a place and realised, gradually, that its scale is not metaphorical.
+
+The city houses, by the best estimates of the Imperial census, somewhere between eight hundred thousand and one million inhabitants. It does not feel like a city that was planned so much as a city that accreted — centuries of construction layering over previous centuries of construction, the newest streets built on foundations whose original purposes have been long since reclassified or simply forgotten. Moving inward from the outer walls, you can read the stratigraphy of Antitheis's history: the outer rings are newer, heavier, more deliberately Viriman in their architectural grammar; the inner rings retain older stonework, Pre-Fall foundations repurposed and built upon, arches that belong to no tradition the Empire officially acknowledges and which the Empire has dealt with by incorporating into its own buildings and not commenting on them.
+
+The city divides broadly into four visible districts and one that does not appear on official maps.
+
+**The Outer Ring** contains the majority of craftspeople, labourers, and itinerant workers. It is the loudest and most chaotic part of Antitheis, and the most densely populated. The streets here are narrow — not because of any planning failure, but because the buildings crept closer to one another over generations, upper floors extended over lower ones on wooden brackets until in some lanes the sky is only a strip between the eaves. The Outer Ring is where most of the city's commerce happens in practice, whatever the Mid City's markets may claim.
+
+**The Mid City** is where merchants, administrators, and the wealthier trades are concentrated. This is where the bout yards are located, where the larger covered markets operate, and where the baptisteria of the civic buildings are open to the public. The architecture here is more deliberate — more consciously Viriman. The stonework is dressed. The arches are clean.
+
+**The Inner Ward** contains the Empire's administrative apparatus: the Hall of Counting, the Once Lost Forever Found, the armories, the garrison quarters, the offices of the Counters and their overseers. Access to the Inner Ward requires documentation that most inhabitants of Antitheis do not possess and have never applied for.
+
+**The Throne** is the Emperor's quarter. It is visible from most of the city — the dome of the Rigosena is the tallest structure in Antitheis and serves, perhaps intentionally, as the point toward which the city orients itself. Most inhabitants of Antitheis have never entered the Seat and will not. It functions as the city's centre of gravity rather than as any part of its lived experience.
+
+**The Undermarket** runs beneath the city through the older tunnel infrastructure — Pre-Fall passages that were incorporated into the current sewer and drainage system without being fully replaced. It is not on official maps. Everyone who lives in Antitheis knows where it is. I will discuss it under its own heading.
+
+### ESKAR
+
+Yamhon is the largest of the Gulf Coast towns, approximately three days' travel south of Antitheis along the coast road. It is primarily a fishing and processing settlement. The smell announces itself before the walls come into view — an honest smell, I have come to think of it, in that it does not misrepresent what the town is. Yamhon exists to catch fish and preserve them, and its architecture, its schedule, and its culture are all organised around this purpose without apology.
+
+The drying racks run the full length of the waterfront. The warehouses are enormous and utilitarian. The boats are well-maintained, because the boats are the point. Ornamentation in Yamhon tends to be nautical rather than civic — knotwork and painted boat-eyes and the occasional carved sea-creature above a doorway, none of which the Empire actively prohibits because none of it constitutes worship of anything.
+
+The people of Yamhon have a reputation in Antitheis for bluntness that the city-dwellers intend as mild condescension and the Yamhoni have long since decided to take as a compliment.
+
+### VELLMOUTH
+
+Safarat sits at the mouth of the river Vell, where the river meets Fisher's Gulf, and serves as the primary trade port for goods moving between the Interior and the sea. It is a merchant city, and it has the atmosphere of one: transactional, busy, possessed of a legal culture considerably more commercially sophisticated than anywhere else in the Empire. Safarat has a large population of scribes, factors, and commercial arbiters — people who exist to manage the paperwork of trade — and these people have, over generations, developed a reputation for interpretations of Imperial law that are technically compliant and practically creative.
+
+The Safarat market operates on a seven-day cycle, with the large open market filling the dock-side streets on the fourth and seventh days. The variety of goods on offer is, by Athian standards, remarkable — not simply because Safarat sits at the junction of multiple trade routes, but because its factor culture has a long tradition of not asking certain questions about where things have come from.
+
+### THE INTERIOR VILLAGES
+
+Interior settlements vary enormously, but they share certain characteristics that distinguish them from the coastal towns. They are older in character, more conservative in their habits, and more reliant on the particular kind of social memory that isolated communities develop when the nearest alternative settlement is two days away on foot. Extended family networks are the core social unit. The village headman — a position the Empire technically replaced with an Imperial steward, but which continues to function in practice — is almost always someone whose family has held it for three or more generations.
+
+These communities are the ones that remember the Roving Period most directly. Not through documents or official histories, but through the things that grandparents passed down to grandchildren: where to store food when the roads stop being safe, which parts of the forest have bad air, why you do not name children after things you value until you are certain they are going to live.
+
+### THE PLATEAU SETTLEMENTS
+
+The plateau settlements are a category apart. The largest, the Notch, has perhaps four hundred inhabitants. Most are smaller. They have descriptive names rather than proper ones — Windward, the Three Stones, the Long Fold — which could reflect a lack of investment in permanence, or a deliberate indifference to the kind of place-pride that named cities express. I have not been able to determine which.
+
+The plateau people are technically Viriman subjects. The Empire's administrative presence here consists of a garrison of fifteen soldiers at the Notch and a quarterly supply route. The soldiers who do this posting do not request it.
+
+---
+
+## ARCHITECTURE AND CRAFT
+
+The Viriman building tradition grew directly from the material conditions of the post-Fall Rebuilding, and it has never entirely shed that origin. The earliest survivor settlements were built from whatever could be salvaged and stacked, and the priority was integrity over everything else. A Viriman building is built to last. It is built to resist. The walls are thick because thin walls collapse. The arches are rounded because round arches distribute load more forgivingly than pointed ones. The windows are small because small windows are easier to defend, and because small windows let in less sky.
+
+These functional preferences have, over two centuries, become an aesthetic language. A Viriman arch does not merely look functional. It looks like a position. The stonework favoured in Antitheis and the larger cities is a dense grey limestone quarried from the Interior hills, which weathers dark with time and gives older buildings the appearance of having grown from the earth rather than been placed on it. Civic buildings and wealthier private structures use dressed and fitted stone. Domestic construction in the Outer Ring and in smaller towns is mortared rubble with limestone corner-quoining.
+
+The decorative language of Viriman architecture is earthward throughout. Ceiling vaults are patterned with references to the root, the stone, the foundation. Floors in civic buildings are polished. Floors in administrative buildings are inscribed with edicts and records — text as flooring, the world of fact underfoot. Where the sky appears in decorative programmes, it appears in the act of being closed, or subordinate, or very far away.
+
+### THE ROTUNDA
+
+The primary civic building form in the Viriman tradition is the rotunda — a wide, domed hall that spreads outward rather than reaching up. Where other cultures build towers and spires, the Virimans build rotundas. The symbolism is not hidden. The interior of a rotunda opens into a broad circular space whose dome directs the eye around rather than upward, and the best of them produce, in the visitor, a sensation of being contained and held rather than elevated. The Rigosena in Antitheis is the largest in the Empire, but there is a rotunda in every city of any consequence, and most are used as the primary civic gathering space for markets, legal proceedings, and public announcements.
+
+### THE BAPTISTERIUM
+
+One feature of Viriman civic architecture that warrants particular note is the *baptisterium* — the washing hall. This is a semi-public space attached to civic buildings of significance, in which new citizens, travellers entering a city for the first time, and individuals transitioning between legal statuses perform a formal washing and register with the local administrative authority. The function is administrative. The form is not. The baptisterium, with its central basin, its surrounding ambulatory, its inscription above the entrance, maps with uncomfortable precision onto the religious spaces described in Pre-Fall texts. The Empire is aware of this. Its official position is that the baptisterium is a hygienic and civic measure with no other significance. Several Imperial administrators have told me this directly, none of them while making eye contact.
+
+### CRAFT AND MATERIALS
+
+Craftwork in the Empire tends toward the durable and functional. The metalworking tradition is strong — iron ore from the Interior hills, worked by smiths whose techniques have developed considerably over the Rebuilding period. Blades, architectural ironwork, agricultural tools, hinges and fittings: Viriman ironwork is reliable and well-regarded in the trade networks of other continents. Decorative metalwork exists but is understated. There is a cultural preference, in Ath, for ornamentation that also serves a purpose. A clasp that is also beautiful. A gate that is also fine. Purely decorative objects produce, in most Virimans, a faint discomfort — as though beauty that serves no function is a form of dreaming, and dreaming is a form of danger.
+
+Textile production is primarily wool from the plateau herds and linen from the Interior river-valley cultivation. Silk is imported, expensive, and worn only by those in the upper administrative tiers and the Emperor's household. The standard Viriman garment is practical: a heavy woolen tunic, knee-length, with a belt — the belt is important, a piece of personal identity that even the poorest workers invest in — and leg wrappings in the cold season. Colour in clothing is muted for most of the population. The Empire uses a deep indigo, derived from the same shellfish-based dye it imports for Imperial ceremonial purposes, as the exclusive colour of administrative rank, and the gradations of shade within that indigo encode a great deal of information about where one sits within the Imperial structure.
+
+---
+
+## TRADE AND ECONOMY
+
+The Viriman economy organises around three main axes: the maritime trade of Fisher's Gulf, the agricultural production of the Interior, and the administrative extraction of the Empire itself.
+
+The Gulf trade is the most internationally exposed. Fishing produces more than Ath can consume, and salted fish — particularly the flat-headed mackerel that congregates in the Gulf during migration season — travels as far as Kala and the western ports of Bazka. In exchange, Ath imports dyes, spices, the shellfish-derived indigo pigment used in Imperial dress, and a range of luxury goods that flow into Antitheis and then, at considerable markup, out to the wealthier households of the Mid City.
+
+The Interior agricultural economy is less glamorous and more foundational. Wheat, rye, and root vegetables form the base of the Athian diet. Forest timber fuels construction and charcoal production. There is a modest wine industry in the southern Interior, sheltered from the plateau winds by a ridge of hills that keeps the microclimate mild enough for cultivation. The wine is rough by the standards of other continents, improving slowly, and drunk with the enthusiasm of people who know that rough wine is better than none.
+
+The Empire's administrative economy is taxation and labour obligation. Every citizen owes a portion of their production to the Imperial authority, collected by the administrative class called the Counters. The Counters are a known quantity, and most people in the Empire have made their peace with them the way one makes peace with a recurring inconvenience. Their corruption is understood to be present, in varying degrees, and it is a common subject of complaint in the lower inns and the dock-side markets. It is not a common subject of complaint in any formal or political register.
+
+Safarat's commercial culture has produced, over several generations, a class of private debt-holders who sit uncomfortably within the Imperial economic structure — wealthy enough to hold liens on other merchants and even on smaller communities, but without formal Imperial standing. The Empire tolerates them because they perform a credit function that the Imperial administration cannot be bothered to perform itself. The relationship is stable in the way that arrangements between unequals are stable: as long as neither party is tempted to test it.
+
+---
+
+## FOOD AND DAILY LIFE
+
+The average inhabitant of Ath eats better than people in many parts of the world, which is a statement that requires qualification: it is pulled up by the relative prosperity of the Gulf Coast and pulled down by the harsher conditions of the Interior and the plateau. The mean is reasonable. The extremes are not.
+
+In Antitheis and the Gulf towns, fish is the centre of the diet in a way that shapes the entire cuisine. The flathead mackerel of the Gulf is eaten fresh in summer, smoked and salted through winter, preserved in oil or brine for trade and long-term storage. There are, in Antitheis, entire market streets dedicated to nothing but the preparations of a single species of fish, and the variation within that narrow frame is genuinely impressive. Smoked flat-head with black bread and soft cheese is the common working lunch of the city. Salt-fish stew with root vegetables and rendered fat is the winter staple of the Outer Ring. The upmarket preparations — flat-head poached in Gulf wine, served on beds of cultivated greens — I encountered in the Mid City eating-houses, where they cost approximately what a labourer earns in a day.
+
+Beyond fish, the diet is bread — heavy, dark-crumbed rye bread for the majority, white wheat bread for those with money — and whatever the season provides from the root-vegetable fields. Dried beans are a winter staple. There is a preparation called *black porridge* — rye grain cooked down with rendered fat and a small amount of salt, producing something with the colour and approximate consistency of mud — which every native of Ath will tell you is acquired taste and which I, after three years, am still in the process of acquiring.
+
+Wealthier households eat more diversely: smoked meats, preserved citrus imported from the south, the Interior wine, game from the forest. The Emperor's household is said to eat from silver plates foods that most of Antitheis would not recognise as food — elaborate preparations demonstrating the distance between the Seat and the Outer Ring as clearly as any wall could.
+
+### THE EVENING COUNT
+
+One notable custom of daily life in Antitheis is the dusk bell. Every evening when the light fails, the campanile bells ring across the city in sequence — upper city first, then outward — and the household lamps come on across every district simultaneously. There is no formal requirement behind this. It is simply dusk marked by bells, as it has been marked for two centuries. The moment when a neighbourhood's lamps come on all at once — the street's darkness pushed back across its full width — is a kind of nightly confirmation that the district is still inhabited, still present. Something survived another day. Something is still there.
+
+I did not understand the emotional weight of this practice until I spent a winter in the city.
+
+---
+
+## ENTERTAINMENT AND CULTURE
+
+The Virimans are not a joyless people. They are sometimes described this way by visitors from more exuberant cultures, but this reflects a category error: Viriman pleasures are intense and specific rather than broad and performative. They do not celebrate lightly. When they celebrate, they mean it.
+
+### THE BOUT CIRCUIT
+
+The most popular form of public entertainment in Antitheis is the bout circuit — organised physical contests held in the open yards of the Mid City on rest days. Wrestling and weighted-carry competitions are the most common, though the circuit also includes running races, knife-throwing contests, and the specifically Athian sport called *headstone*, which involves throwing flat stones of standardised weight at targets embedded in a dirt mound and which is considerably more interesting to play than to observe. The circuit is officially sanctioned and administered by the Empire, which collects a fee from the yard operators and uses the competitions, partly and not very covertly, for military talent scouting.
+
+Betting on the bout circuit is technically regulated and practically universal. The betting culture has produced, at the level of the serious gamblers who follow specific fighters across the circuit, a kind of shadow economy of information and favour that operates in parallel with the official contest results.
+
+### THE TELLING
+
+Storytelling in the Viriman tradition occupies a complex position. There is a strong oral culture, and storytellers are genuinely valued — a skilled teller can hold a crowd in any of the covered markets or lower inn-yards of Antitheis, and the best of them are well-compensated for it. But the tradition is regulated. Stories may not invoke the names of divine beings in a public setting, and the penalty for doing so is real. This constraint has, over two centuries, produced something unexpected: a storytelling tradition built entirely around the managed absence of the things it cannot name.
+
+A skilled Viriman storyteller can narrate the entire arc of the Fall — its causes, its character, its consequences — without naming a single divine entity, using instead a grammar of epithets, circumlocutions, and understood gaps. *The sleeper. The one that woke. The false heaven's keeper. The patient mechanic.* Audiences know exactly what these phrases refer to, and the knowledge is not secret, and yet the performance of not-naming produces something that direct naming would not. The gap where the name should be is the loudest thing in the room.
+
+I have heard several performances of this type, and I will say without qualification that they were among the most affecting things I have encountered in my years of travel.
+
+### MUSIC AND SONG
+
+Music is broadly popular and broadly unregulated, the Empire having determined at some point that the enforcement cost was not worth the political cost. The Viriman musical tradition favours lower registers — drums and horns dominate, strings are present but secondary — and group singing is common at the docks, in workshops, in the lower inns. There are songs that nominally describe historical events and actually encode considerably more complicated feelings about them. Whether the Empire chooses not to hear this or genuinely does not, I cannot determine.
+
+---
+
+## THE FORBIDDEN — ON THE MATTER OF THE DREAMING FAITHFUL
+
+*I have been careful throughout this account to record what was told to me directly, and I should be equally careful here to note that what follows is, by its nature, indirect. No one admits to what I am about to describe, at least not to me, not in a city where the consequences of admission are real. I set this down because I think it is true, and because a geography of a place that omits the things its government would prefer omitted is not a geography — it is a pamphlet.*
+
+The Viriman Empire's official position is that divinity does not exist, or if it existed, it is gone — destroyed in the Fall along with most of what it created, leaving nothing of significance behind. This position is politically coherent and emotionally understandable. I believe it is also, in important respects, incorrect.
+
+I am not a religious man. My years of travel have made me, if anything, less certain of almost everything. But I have seen enough of the world to know that the line between what a government declares to be true and what is actually true is not always a clean one. And there are things on Ath that do not fit the official account.
+
+### THE PLATEAU DEAD
+
+The burial practices of the Aldare Plateau communities are the most visible of the things that don't fit. The plateau people do not bury their dead. They carry them to specific locations — flat-topped outcroppings above the main plateau elevation, certain ones and no others — and lay them out. They describe this as returning the dead to the wind. They do not describe it further.
+
+The Empire's official position is that this is a primitive custom persisting from pre-Excision practice, that it will be regulated out of existence in due course, and that the bodies are taken by scavengers in the ordinary way of nature. This may be accurate. It is also the case that the bodies are not generally recovered, not even by scavengers, not even in the seasons when the plateau is low enough to traffic. It is also the case that the plateau communities have maintained this practice with a consistency, across the entire Rebuilding period, that suggests something more than mere tradition sustains it. People do not continue to do things that do not do anything. Not with that kind of consistency. Not with that kind of care.
+
+When I asked one of the older inhabitants of the Notch directly — as directly as one can ask someone something that could get them arrested, which is to say with a great deal of apparent casualness — she looked at me for a long moment and then said: *"They're taken care of."* And then changed the subject. I have replayed that answer many times since. I still do not know if it was a comfort or a warning.
+
+### THE UNDERMARKET
+
+In Antitheis, below the official city, running through the older passages that predate the current sewer infrastructure, there are communities that do not appear on any administrative roll.
+
+They are not, as best as anyone who knows of them is willing to say, large groups. They tend toward the older sections of the infrastructure — the Pre-Fall tunnels that were incorporated into the current drainage system and never fully replaced — and they tend, it seems, to be composed of people who have fallen out of the official economy: the indebted, the administratively invisible, the ones who arrived from somewhere else and did not register at the baptisterium.
+
+People who work in the Undermarket — the legitimate Undermarket of smuggled goods and unlicensed trade — are aware of these lower communities. They do not discuss them with strangers. Those who do discuss them, in fragments and sideways and always in a register that implies they are talking about something they have heard rather than seen, describe a persistent quality to the lower passages. Not the people themselves, exactly, but the spaces. A sense that certain tunnels *want* something that the city above them is not providing. That the water in the oldest channels tastes of something that clean water does not taste of. That there are, near the oldest drainage outlets, figures that are not searching for anything that can be found on the surface.
+
+I do not know what Blaedre of the Wasted Waters was, in the period before the Fall, when cities were larger and their waste was correspondingly greater and the old texts speak of something that moved through the refuse of civilisation and kept its underside clean. I know that the texts describing this entity are Pre-Fall, fragmentary, and officially inaccessible in the Antitheis archive. I know that in a city of close to one million people, whatever such a thing required in order to persist is not currently in short supply. I know that the water in the deep tunnels, when I tasted a small amount from an offered cup in the company of someone who would not tell me his name, tasted of something that was not quite salt and not quite iron and that I thought about for longer than I would like to admit.
+
+What I think about most, regarding Blaedre, is something a Undermarket runner said to me when I asked — obliquely, as one does — whether the lower passages had changed in recent years. She said: *"He used to be satisfied. Now he's hungry. The difference is which way the walls lean."* I have no idea what this means as a piece of practical information. I have thought about it more than almost anything else I encountered on Ath.
+
+### THE CLOCKWORK FAITHFUL
+
+The group that Antitheis residents, when they mention it at all, call the Clockwork Faithful is not composed primarily of the desperate. This is what makes it different from the other forbidden communities I encountered on Ath, and what makes it, I think, more troubling to the Empire.
+
+They appear, from what I can determine, among the Empire's own craftsmen and artisans: skilled workers, people with livelihoods and something to lose. Their interest is not in the divine as a source of comfort or meaning or refuge from a hard life. Their interest is in the divine as a source of method. As an improvement. As a way of becoming more precisely, more efficiently, more completely themselves.
+
+There are stories — and I want to be clear that these are the kind of stories people tell while making it clear they do not personally believe them — of workers who underwent some form of what is described, when it is described at all, as adjustment. Who returned to their workshops with a precision they did not previously possess. Who produced work that their colleagues could not account for given the tools and time available. Who no longer, quite, seemed to sleep.
+
+The Empire investigates these cases when they come to light. Some of them do not result in a trial. The workers who are found — or the things that were workers, if the accounts I heard are accurate — are not, so far as anyone has told me, imprisoned. They simply stop being seen.
+
+I do not know what the [[Horologist]] is, or was, before the Fall. The old texts describe an entity that valued time — the precision of it, the efficiency of it — with an intensity that crossed from appreciation into hunger. I know that the quasi-human hybrid populations described in Chapter One of this volume are attributed, by those records that discuss their origin at all, to the workings of this same entity. I know that the craftsmen I spoke to in Antitheis who came closest to discussing this matter — never directly, always as a story they had heard — had in their voices the specific flatness of people describing something that frightens them.
+
+And I know that when I asked one of them whether he thought the thing that had adjusted those workers was still present in the world, he said, without hesitation and with a look that suggested he was giving me the most useful information I was likely to receive: *"It doesn't stop. It never stopped. That's the whole point of it."*
+
+---
+
+### A FINAL NOTE FROM THE REMEMBRANCE HALL
+
+In the third year of my time on Ath, I visited the Once Lost Forever Found in Antitheis, where the records of the Fall are kept and the names of the known dead are inscribed into the walls. It is a quiet place, carefully maintained, and at its centre is the oldest piece of intact Pre-Fall architecture in the city: a circular stone basin, bone-dry, carved from a single piece of stone that is not native to Ath. No one has an authoritative account of how it came to be there.
+
+The inscription on the basin's rim has been partially ground away, in accordance with the Excision doctrine, but one section remains legible. The hall's custodian told me it had been left deliberately, as a reminder. The inscription is in the oldest dialect I encountered anywhere in my travels, and reads as follows:
+
+> *"He dreamt everything you are. He will dream everything you will be. Do not wake him."*
+
+I stood there for a while. The custodian waited by the door.
+
+I did not ask what the reminder was meant to remind them of. I was not certain I wanted the answer. What I found myself thinking about, standing beside a dry basin in a hall full of names, was not the warning in the words but the fact of their preservation. The Empire that ground away the rest of the inscription left this part. The Empire that removed every other divine name from every other surface in the city kept this one.
+
+There are two ways to read that choice. I suspect both of them are correct.
+
+---
+
+*The next chapter concerns the continent of Kala, and I will attempt to keep it to an appropriate length.*
+
+*— Yours Truly, Krad Kraps*
