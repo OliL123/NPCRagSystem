@@ -182,6 +182,11 @@ public class RagPipeline
 
 		// Prior turns go to the model as real chat messages, not text in the system prompt.
 		var historyMessages = BuildTurnMessages(npc);
+		// Count of PRIOR turns (before this one is appended to history below) — a clean 0-based
+		// turn ordinal: 0 for a fresh conversation, resets when the history is cleared. Do NOT use
+		// historyMessages.Count here: that's a message count (2 per turn plus a trailing world note),
+		// so it climbs 1,3,5,... and convert's arc grouping (which expects 0,1,2,3) never matches.
+		var turnIndex = _conversationTracker.GetConversationHistory(npcId).Count;
 
 		string response;
 		_lastReplyEnded = false;
@@ -213,13 +218,12 @@ public class RagPipeline
 		_conversationTracker.AddConversationTurn(npcId, userQuery, response);
 
 		// Capture the turn for fine-tuning. systemPrompt + userQuery → response is exactly
-		// the SFT pair; the state snapshot lets the set be filtered/balanced later.
-		// `historyMessages.Count` is the depth BEFORE this turn was appended (0 = fresh
-		// conversation), so it doubles as the turn index that lets the curator/convert
-		// reassemble a multi-turn arc from consecutive rows.
+		// the SFT pair; the state snapshot lets the set be filtered/balanced later. `turnIndex`
+		// (captured above, before this turn joined the history) is the clean 0-based turn ordinal
+		// that lets the curator/convert reassemble a multi-turn arc from consecutive rows.
 		_trainingLogger?.BufferTurn(
 			_primaryModelName, npcId, npc.Name, systemPrompt, userQuery, response,
-			BuildStateSnapshot(npc), historyMessages.Count);
+			BuildStateSnapshot(npc), turnIndex);
 
 		// ── Post-turn memory work (background) ─────────────────────────────────
 		// Memory extraction, scar-tissue compression and the NPC-state save run while the
