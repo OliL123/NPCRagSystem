@@ -102,7 +102,7 @@ Sleeping Hound and start talking your way back to who you are.
 - `leave` ends the conversation and returns you to the room.
 
 NPCs remember what you say and how you treat them, hold their own moods and schedules, and talk
-amongst themselves — so talk to them like people, not menus. Your game saves automatically;
+amongst themselves, so talk to them like people, not menus. Your game saves automatically;
 relaunching offers to continue where you left off.
 
 ---
@@ -113,18 +113,9 @@ relaunching offers to continue where you left off.
 |-|-|
 |[**docs/ARCHITECTURE.md**](docs/ARCHITECTURE.md)|The request flow end to end, the code map, config, a full catalog of the retrieval + memory techniques, and how to diagnose common issues.|
 |[**docs/DEEP_DIVE.md**](docs/DEEP_DIVE.md)|Annotated walkthroughs of the intricate parts (RRF, MMR, HyDE, the Ebbinghaus curve, streaming token suppression, claim detection) *with the actual code*.|
-|[**docs/ROADMAP.md**](docs/ROADMAP.md)|Where this is going — the fine-tune track, planned world-events / privacy-gated disclosure / reflection / neurosymbolic-consistency systems, and known limitations.|
+|[**docs/ROADMAP.md**](docs/ROADMAP.md)|Where this is going: the fine-tune track, planned world-events / privacy-gated disclosure / reflection / neurosymbolic-consistency systems, and known limitations.|
 
 ---
-
-## Tech stack
-
-* **C# / .NET 8** — single-process console app; hand-wired service composition in `Program.cs`.
-* **Ollama** — local LLM inference (`/api/chat`) + embeddings (`nomic-embed-text`); model chosen
-at startup via a Spectre.Console picker.
-* **In-memory hybrid index** — dense vectors + BM25, built from `Data/Lore/*.txt` at startup.
-* **Python ML workshop** (`ml/`, optional, parked) — a QLoRA fine-tune pipeline and a control-vector
-(activation-steering) track for baking character voice into the model. Not needed to run the game.
 
 ## Project layout
 
