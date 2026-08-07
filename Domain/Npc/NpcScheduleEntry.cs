@@ -21,6 +21,12 @@ public class NpcScheduleEntry
     [JsonPropertyName("farewell")]
     public string Farewell { get; set; } = string.Empty;
 
+    // When non-empty, the NPC is mid-task during this block (e.g. "picking labourers on the
+    // block"). PersonaBuilder injects a "you're busy, keep it short" disposition — NOT a hard
+    // gate: quick asks get a quick answer, idle chatter is brushed off, urgent/trusted breaks through.
+    [JsonPropertyName("activity")]
+    public string Activity { get; set; } = string.Empty;
+
     // 0 = Monday, 6 = Sunday. Returns true if "all" or if the day int is in the array.
     public bool AppliesToDay(int dayOfWeek)
     {

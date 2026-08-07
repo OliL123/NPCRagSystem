@@ -248,7 +248,7 @@ public static class PersonaBuilder
 	// prompt. Recency + a strong header make small models actually act on it, instead
 	// of letting it wash out in the middle of a long persona. Returns "" when the NPC
 	// is at a flat baseline with nothing worth saying.
-	public static string BuildCurrentState(NpcState npc)
+	public static string BuildCurrentState(NpcState npc, WorldContext? world = null)
 	{
 		var e = npc.EmotionalState;
 		var p = npc.PhysicalState;
@@ -303,7 +303,23 @@ public static class PersonaBuilder
 			MathF.Max(MathF.Max(e.Anger, e.Anxiety), MathF.Max(e.Fear, e.Grief)),
 			p.Intoxication);
 
-		if (items.Count == 0 && looseLips < 0.6f)
+		// Busy disposition — if the NPC's current schedule block marks them mid-task, they should
+		// not drop everything to chat. NOT a hard gate: a genuinely quick question gets a quick
+		// answer, idle chatter is brushed off, and urgent/important input or high trust breaks
+		// through. Leads the block below (first point = strongest) so it actually shapes the reply.
+		string? busyLine = null;
+		if (world != null)
+		{
+			var dow = WorldContext.DayOfWeekIndex(world.GameDay);
+			var block = npc.Schedule.FirstOrDefault(s => s.AppliesToHour(world.Hour) && s.AppliesToDay(dow));
+			if (block != null && !string.IsNullOrWhiteSpace(block.Activity))
+				busyLine = $"You are busy {block.Activity} right now and cannot stop for long: "
+					+ "answer a genuinely quick question in a line and get back to it, brush off idle chatter by "
+					+ "telling them plainly you are busy and to find you later, and only truly set the work aside if "
+					+ "what they say is urgent or important, or comes from someone you already trust";
+		}
+
+		if (items.Count == 0 && looseLips < 0.6f && busyLine == null)
 			return string.Empty;
 
 		// Strongest-standout first, so the model leads on what actually changed.
@@ -312,6 +328,7 @@ public static class PersonaBuilder
 		var sb = new StringBuilder();
 		sb.Append("[HOW YOU FEEL RIGHT NOW — this overrides your usual manner. Let it drive your tone, " +
 				  "how much you say, and how willing you are to engage. The first point matters most:]");
+		if (busyLine != null) sb.Append($"\n- {busyLine}.");
 		foreach (var (text, _) in ranked)
 			sb.Append($"\n- {text}.");
 		if (looseLips >= 0.6f)

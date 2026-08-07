@@ -415,7 +415,7 @@ public class RagPipeline
 
 		// What just passed between them is supplied as chat turns (BuildHistoryMessages), so the
 		// reaction fits the moment rather than being a generic greeting.
-		var stateBlock = PersonaBuilder.BuildCurrentState(npc);
+		var stateBlock = PersonaBuilder.BuildCurrentState(npc, BuildWorld());
 		var stateSection = !string.IsNullOrEmpty(stateBlock) ? $"\n\n{stateBlock}" : "";
 
 		var systemPrompt =
@@ -466,7 +466,7 @@ public class RagPipeline
 			: "";
 
 		// Current state goes last for recency, as in the main prompt.
-		var stateBlock = PersonaBuilder.BuildCurrentState(npc);
+		var stateBlock = PersonaBuilder.BuildCurrentState(npc, BuildWorld());
 		var stateSection = !string.IsNullOrEmpty(stateBlock) ? $"\n\n{stateBlock}" : "";
 
 		return ($"{stablePrefix}{contextSection}{stateSection}", numKeep);
@@ -641,7 +641,7 @@ public class RagPipeline
 
 		// Current emotional/physical/relationship state goes LAST — recency makes small
 		// models actually act on it, instead of losing it in the middle of the prompt.
-		var stateBlock = PersonaBuilder.BuildCurrentState(npc);
+		var stateBlock = PersonaBuilder.BuildCurrentState(npc, BuildWorld());
 		var stateSection = !string.IsNullOrEmpty(stateBlock) ? $"\n\n{stateBlock}" : "";
 
 		var systemPrompt =
@@ -741,8 +741,23 @@ public class RagPipeline
 			sb.Append(c);
 			i++;
 		}
-		var cleaned = System.Text.RegularExpressions.Regex.Replace(sb.ToString(), "[ \\t]{2,}", " ");
+		var cleaned = ScrubSpeech(sb.ToString());
+		cleaned = System.Text.RegularExpressions.Regex.Replace(cleaned, "[ \\t]{2,}", " ").Replace(" ,", ",");
 		return cleaned.Trim();
+	}
+
+	// House-style scrub applied to every rendered NPC line. Two fixes:
+	//  - em/en dashes -> comma (the standing "no dashes in NPC speech" rule);
+	//  - drop orphan parentheses the span-stripper leaves behind — the model emits "*action*)",
+	//    a trailing ')' with no matching '('.
+	// Kept position-local (dash + FOLLOWING whitespace only, never a preceding char) so the
+	// streaming renderer stays prefix-stable. —/– escapes avoid any source-encoding risk.
+	private static string ScrubSpeech(string text)
+	{
+		if (string.IsNullOrEmpty(text)) return text;
+		text = System.Text.RegularExpressions.Regex.Replace(text, "[—–]\\s*", ", ");
+		text = text.Replace("(", "").Replace(")", "");
+		return text;
 	}
 
 	// Write text to the console, dimming any *asterisk* action spans so physical beats read
@@ -786,7 +801,7 @@ public class RagPipeline
 			sb.Append(c);
 			i++;
 		}
-		var cleaned = sb.ToString();
+		var cleaned = ScrubSpeech(sb.ToString());
 
 		// Hold back a partial end-token tail ('[', '[EN', …); '<' partials are already held above.
 		cleaned = cleaned[..(cleaned.Length - TrailingEndPrefixLen(cleaned))];
@@ -853,7 +868,7 @@ public class RagPipeline
 		if (npc == null) return null;
 
 		var dynamicPersona = PersonaBuilder.Build(npc, _playerState?.Name, BuildWorld(), playerAppearance: _playerState?.Appearance);
-		var stateBlock = PersonaBuilder.BuildCurrentState(npc);
+		var stateBlock = PersonaBuilder.BuildCurrentState(npc, BuildWorld());
 		var stateSection = !string.IsNullOrEmpty(stateBlock) ? $"\n\n{stateBlock}" : "";
 		var systemPrompt =
 			$"You are {npc.Name}. {dynamicPersona}\n\n" +
