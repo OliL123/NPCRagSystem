@@ -60,6 +60,7 @@ import numpy as _np_before_install   # imported BEFORE pip runs, to detect numpy
 
 !pip install -q "unsloth[colab-new]==2026.6.9"
 !pip install -q --no-deps --upgrade trl peft accelerate bitsandbytes
+!pip install -q --no-deps liger-kernel   # fused CE: computes loss in chunks, never builds the fp32 [seq x 128k] logits buffer, so 4608 fits the T4
 
 # --- verify what actually landed on disk (metadata reads disk, not RAM) ---
 from importlib.metadata import version as _v
@@ -148,7 +149,7 @@ if not BF16_OK:
 
 from unsloth import FastLanguageModel
 
-MAX_SEQ = 4096                      # our system prompts (persona + memories + rules) are long
+MAX_SEQ = 4608                      # liger ON -> room for the ~3.6k-token max example; nothing truncates
 DTYPE   = torch.bfloat16 if BF16_OK else torch.float16
 print(torch.cuda.get_device_name(0), "->", DTYPE)
 
@@ -246,12 +247,12 @@ trainer = SFTTrainer(
     eval_dataset     = ds_eval,     # the held-out ~10% from cell [6] — watch its loss
     args = SFTConfig(
         dataset_text_field          = "text",
-        max_length                  = 3328,    # cap BELOW MAX_SEQ. Single-turn data max is ~3148 real
-                                               # tokens, so those don't truncate. At 4096, TRL's chunked-CE
-                                               # materialised a fp32 [seq x 128k-vocab] logits buffer and
-                                               # OOM'd the T4. (Multi-turn arcs over this cap are flagged in
-                                               # cell [6]; if you have them, use_liger_kernel + raise this.)
-        activation_offloading       = True,    # the other half of that OOM fix — offloads activations to CPU.
+        max_length                  = 3328,    # liger OFF -> the standard fp32-logits CE is back, so cap at 3328 to fit
+                                               # the T4. The longest ~6 arcs truncate their last turn (acceptable to test).
+        use_liger_kernel            = False,   # 2026-08 TEST: liger was ON in EVERY degenerate run this session. It is a
+                                               # fused fp16 CE kernel; a bogus near-zero loss + garbage grads from it would
+                                               # explain the 0.01-loss-on-unseen-data AND the collapse. OFF to isolate it.
+        activation_offloading       = True,    # offloads activations to CPU — the other half of the mem fix.
         packing                     = False,   # tiny set — keep examples distinct
         padding_free                = False,   # this trl build defaults it True -> conflicts w/ max_length
         per_device_train_batch_size = 1,       # 16GB card: batch 2 OOMs on long prompts
@@ -267,10 +268,13 @@ trainer = SFTTrainer(
         #   ~300+ rows -> 2 epochs, 1e-4   (current — matches the ~300-row pilot set)
         # Watch EVAL loss (printed every eval_steps): if train loss dives below ~0.1 while
         # eval loss stops improving, stop early — that's memorising, not training.
-        num_train_epochs            = 2,
-        learning_rate               = 1e-4,
-        eval_strategy               = "steps", # print eval loss alongside train loss
-        eval_steps                  = 5,
+        num_train_epochs            = 1,       # 2ep/1e-4 collapsed fast on the 309-set (like the old 3ep/2e-4)
+        learning_rate               = 5e-5,    # back to 5e-5: 1e-5 ALSO cooked, so LR is ruled out. Testing liger OFF at
+                                               # a normal LR -- if THIS run is coherent, liger's fused fp16 CE was the poison.
+        eval_strategy               = "no",    # eval OOMs on the T4 at 4608: liger's fused CE is TRAIN-only,
+                                               # eval falls back to upcasting the full fp32 [seq x 128k] logits.
+                                               # Overfit check here = train loss + the cell [9] smoke test.
+        # eval_steps                = 5,       # (re-enable with eval_strategy="steps" on a bigger GPU)
         # Match the load dtype chosen in cell [4]: bf16 on Ampere+, fp16 on T4/P100.
         # (The fp32 adapter upcast below makes either scaler path safe.)
         fp16 = not BF16_OK,
@@ -284,6 +288,34 @@ trainer = SFTTrainer(
         report_to         = "none",
     ),
 )
+# --- RESPONSE-ONLY LOSS MASKING (the fix for the 2026-08 collapse) ---
+# WITHOUT this, SFTTrainer grades the model on the ENTIRE formatted string,
+# including the ~3.3k-token system prompt that is near-identical every row. The
+# model just memorises that boilerplate: train loss craters to ~0.015 and
+# generation degenerates into token loops that regurgitate the system block
+# ("[CRITICAL FORMATTING RULES]..."). Standard SFT masks everything up to the
+# assistant turn so loss lands ONLY on the reply we want it to learn. Hermes-3 is
+# ChatML; the assert fails loud if the tokenizer applies a different template
+# (wrong markers would blank the whole sequence -> loss ~0, learns nothing).
+# 2026-08 REGRESSION TEST: the 2026-07-06 run that WORKED on this T4 (loss 3.0->1.6,
+# coherent curt-anger probe) had NO masking. Masking was added this session and is present
+# in every collapsing run. So masking is the prime suspect. USE_MASKING=False reproduces the
+# July-style full-sequence training. If THIS run is coherent -> masking (as applied on this
+# unsloth/trl build) was the poison, not the hardware. Flip back to True only if it helps.
+USE_MASKING = False
+if USE_MASKING:
+    from unsloth.chat_templates import train_on_responses_only
+    _INSTR = "<|im_start|>user\n"
+    _RESP  = "<|im_start|>assistant\n"
+    assert _RESP in ds_train[0]["text"], (
+        "ChatML assistant header not found in the formatted text -- the tokenizer is "
+        "applying a DIFFERENT template. Print ds_train[0]['text'] and set _INSTR/_RESP "
+        "to match before training.")
+    trainer = train_on_responses_only(trainer, instruction_part=_INSTR, response_part=_RESP)
+    print("response-only masking ON -- loss is computed on assistant turns only.")
+else:
+    print("response-only masking OFF -- full-sequence training (reproduces the July run).")
+
 # THE FIX THAT HOLDS (pre-Ampere / fp16 trainer): trainable LoRA params MUST be float32 —
 # the fp16 GradScaler hard-rejects fp16 grads (ValueError) and has no bf16 kernel
 # (NotImplementedError); fp32 master weights under fp16 autocast is standard QLoRA.
@@ -297,9 +329,9 @@ if not BF16_OK:
             p.data = p.data.to(torch.float32); n += 1
     print(f"cast {n} trainable params to float32")
 print("trainable dtypes:", Counter(str(p.dtype) for p in model.parameters() if p.requires_grad))
-trainer.train()   # watch BOTH losses: train should fall then flatten (earlier 78-example run:
-                  # ~3.0 -> ~1.6 over 30 steps). If train keeps diving (toward ~0.015) while
-                  # EVAL loss flattens/climbs, that's overfit — stop early.
+trainer.train()   # eval is off (OOMs on T4 at 4608), so watch TRAIN loss: it should fall then flatten
+                  # (earlier 78-example run: ~3.0 -> ~1.6 over 30 steps). If it dives toward ~0.015 that's
+                  # memorising — stop early. The cell [9] smoke test (trained-Q vs novel-Q) is the real check.
 
 # %% [8] *** SAVE THE ADAPTERS IMMEDIATELY — the safety net. DO NOT SKIP. ***
 # The LoRA adapters ARE the trained result and are tiny (~150MB). Save + download
@@ -389,7 +421,7 @@ if isinstance(ct, dict):   # transformers 5.x dict-form template; unsloth save.p
 # Export to /tmp, NOT /kaggle/working: the fp16 merge is ~16 GB and /kaggle/working caps at 20 GB
 # (it filled mid-export and the run died). /tmp is on the ~1 TB overlay. maximum_memory_usage=0.5
 # (default 0.75) shards the merge so it doesn't also RAM-OOM the ~29 GB box.
-model.save_pretrained_gguf("/tmp/hermes-npc", tokenizer, quantization_method="q4_k_m", maximum_memory_usage=0.5)
+model.save_pretrained_gguf("/tmp/hermes-npc", tokenizer, quantization_method="q4_k_m", maximum_memory_usage=0.25)  # 0.5 OOM'd the free-box RAM on the fp16 merge -> shard harder
 # -> lands in /tmp/hermes-npc_gguf/ with unsloth's own file name.
 # Unsloth also drops its own Modelfile there — IGNORE it; ml/finetune/Modelfile has
 # the game's sampling params + the multi-turn .Messages template.
