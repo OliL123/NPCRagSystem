@@ -96,7 +96,7 @@ public static class PersonaBuilder
 		var voice = AccentRegistry.GetVoice(npc.Accent);
 		if (!string.IsNullOrWhiteSpace(voice) || !string.IsNullOrWhiteSpace(npc.SpeechQuirk))
 		{
-			persona.Append("\n\n[VOICE] ");
+			persona.Append("\n\n");
 			if (!string.IsNullOrWhiteSpace(voice)) persona.Append($"You speak in {voice}");
 			if (!string.IsNullOrWhiteSpace(npc.SpeechQuirk)) persona.Append($" {npc.SpeechQuirk}");
 		}
@@ -421,8 +421,8 @@ public static class PersonaBuilder
 			("trust_player", >= 0.8f) => "You trust this person deeply — you speak more openly than you normally would with anyone",
 			("trust_player", >= 0.6f) => "You have come to trust this person and are noticeably warmer and more forthcoming",
 			("trust_player", >= 0.4f) => "You have a cautious trust for this person — more willing to engage than with most strangers",
-			("trust_player", >= 0.2f) => "You are slightly more at ease with this person than a complete stranger",
-			("trust_player", _) => "You do not know this person and give nothing away",
+			("trust_player", >= 0.2f) => "You are only slightly more at ease with this person than a stranger — your guard is up and your private business stays yours",
+			("trust_player", _) => "You do not know this person — keep your guard up and give nothing of yourself away, deflecting anything personal",
 
 			// Care for player
 			("care_player", >= 0.8f) => "You genuinely care about this person's wellbeing and it shows in everything you say",
