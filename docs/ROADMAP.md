@@ -22,12 +22,20 @@ built and playable today; everything below is enhancement.
 
 - **Track A — QLoRA fine-tune of `hermes3:8b`** (`ml/finetune/`). Teaches the behaviour no
   off-the-shelf model does reliably: *state → tone* (anger → curt, fear → rattled), terseness,
-  de-slop, and body-language `*beats*`. Pipeline (collect → curate → convert → train) exists;
-  data curation is the active work. **Currently parked in favour of shipping the engine** — the
-  game runs fully on the stock model without it.
+  de-slop, and body-language `*beats*`. **Pilot trained, tested, and working (2026-08).** The fix
+  was response-masking *off* / full-sequence training — masking collapsed the run on this stack.
+  Runs in Ollama as `hermes-npc` (selectable via the model picker). Validated: voice and
+  *disclosure-by-trust* gating. Weak spot: state→tone *amplitude* is underplayed (exhaustion
+  especially) — grown via targeted data + Track B. ~309 curated examples; more targeted data
+  (esp. exhaustion→terse) is the next lever. Still not the default ship path — the game runs fully
+  on the stock model.
 - **Track B — control vectors** (`ml/control-vectors/`, repeng). Live activation-steering to dial
-  emotional intensity at inference. Experimental; weight-specific, so it gets rebuilt on the
-  fine-tuned weights once Track A lands.
+  emotional intensity at inference. **Re-calibrated on the fine-tune (2026-08):** anger / suspicion
+  / grief / disgust steer cleanly; anxiety is marginal; guilt / exhaustion / hope don't transfer
+  from the base vectors and want re-extraction on the fine-tuned weights (attempted, hit cloud-env
+  limits, deferred). **Not wired into the game** — llama.cpp applies vectors only at load time, so
+  live per-NPC steering needs a serving layer (reload-on-state-change, or spawn-per-turn). Deferred
+  pending playtest: build the serving only if the amplitude gap actually hurts in play.
 
 ## Designed, not yet built (Phase 4/5)
 
@@ -59,8 +67,8 @@ running the game; they're the engineering backlog:
 - **Service composition is hand-rolled** in `Program.cs` — migrating to
   `Microsoft.Extensions.DependencyInjection` + `appsettings.json` is planned.
 - **ML pipeline hardening** — dataset versioning/manifest, a pinned `requirements` lockfile, a
-  scripted eval harness (base-vs-finetune metrics), and folding the two near-identical
-  `train_pilot*.py` scripts into a shared core.
+  scripted eval harness (base-vs-finetune metrics), and folding the three near-identical
+  `train_pilot*.py` scripts (T4 Colab / Kaggle / bf16) into a shared core.
 - **Persistence** — regional JSON saves rewrite whole files; a debounced, atomic (temp-then-rename)
   save coordinator is planned.
 
