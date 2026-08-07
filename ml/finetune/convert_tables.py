@@ -4,16 +4,20 @@
 Workflow (the table-based one, not the in-game `tag` one):
   1. Battery run -> Data/Saves/auto/training_log.jsonl  (system, user, response, npc, state)
   2. Archive it -> ml/finetune/logs/batchNN_log.jsonl (BEFORE the next New game wipes it)
-  3. Claude pulls turns -> data_review_batchNN.md with blank Verdict / Your Rewrite
+  3. Claude pulls turns -> reviews/data_review_batchNN.md with blank Verdict / Your Rewrite
   4. You fill Verdict (good|edit|discard) + Your Rewrite
   5. This script joins each table -> its OWN archived log and writes out/train.jsonl
 
-Multi-turn: each log row carries a `turn` index (0 = fresh conversation, then 1,2,...
-for an arc collected without `reset`). Consecutive rows whose turn climbs 0,1,2,...
-are assembled into ONE {messages:[system, u,a, u,a, ...]} example (loss on each
-assistant turn) instead of being flattened to independent single turns. A discarded
-or unjudged turn truncates the arc at that point. Legacy logs with no `turn` field
-default to 0 -> every row is its own single-turn example, exactly as before.
+Layout: review tables live in reviews/, archived logs in logs/, output in out/.
+
+Multi-turn: each log row carries a `turn` index (the count of prior turns in the
+conversation). An arc collected without `reset` is a run of consecutive same-npc rows
+whose turn climbs by exactly +1 each row; it is assembled into ONE
+{messages:[system, u,a, u,a, ...]} example (loss on each assistant turn) instead of
+being flattened to independent single turns. The run is matched on the +1 INCREMENT,
+not an absolute 0 start, because the game's first-meeting greeting can offset an arc to
+open at turn 1. A discarded/unjudged turn truncates the arc there. Legacy logs with no
+`turn` field default to 0 -> every row is its own single-turn example, exactly as before.
 
 Log resolution: `data_review_batchXX.md` pairs with `logs/batchXXX_log.jsonl` by name
 (the "batchXX" part must match). NEVER falls back to the live/default log for a table
@@ -27,7 +31,7 @@ entirely and reported, not partially processed.
   discard  -> skipped (kept aside for a later DPO pass)
 
 Usage:
-  py convert_tables.py                    # all data_review_*.md, each paired with its logs/*_log.jsonl
+  py convert_tables.py                    # all reviews/data_review_*.md, each paired with its logs/*_log.jsonl
   py convert_tables.py --tables a.md b.md --out out/train.jsonl
 """
 import argparse, json, re, sys
@@ -94,24 +98,30 @@ def norm(s: str) -> str:
 
 
 def build_runs(log):
-    """Group 0-based log-line indices into conversation runs using the `turn` field.
+    """Group log-line indices into conversation runs using the `turn` field.
 
-    A run starts at turn 0 and continues while turn increments by exactly 1
-    (0,1,2,...), which is how a multi-turn arc was collected (no `reset` between
-    lines, so the model's history depth climbed each turn). A row with turn 0
-    starts a fresh conversation. Legacy logs with no `turn` field default every
-    line to 0, so each line becomes its own single-turn run — identical to the
-    old flatten-everything behaviour.
+    A multi-turn arc is a maximal run of CONSECUTIVE rows for the SAME npc whose
+    `turn` climbs by exactly 1 each row (t == previous_turn + 1). Any break — a
+    different npc, or a turn that doesn't continue the sequence — starts a fresh
+    run. We match on the +1 INCREMENT, not an absolute 0 start, because the game's
+    first-meeting greeting adds a history entry, so an arc on a not-yet-met npc can
+    open at turn 1 (e.g. tasco: 1,2,3,4) instead of 0 — still one conversation.
+    Two adjacent single turns of the same npc log the SAME turn value (reset clears
+    history between them), so `t != prev+1` keeps them as separate runs. Legacy logs
+    with no `turn` field default every line to 0 -> every line its own single-turn run.
     """
     runs, cur = [], []
+    prev_npc, prev_turn = None, None
     for i, entry in enumerate(log):
         t = entry.get("turn", 0) or 0
-        if cur and t == len(cur):      # continues the current arc (next expected depth)
+        npc = entry.get("npc_id")
+        if cur and npc == prev_npc and t == prev_turn + 1:
             cur.append(i)
-        else:                          # t == 0, or an unexpected value -> start fresh
+        else:
             if cur:
                 runs.append(cur)
             cur = [i]
+        prev_npc, prev_turn = npc, t
     if cur:
         runs.append(cur)
     return runs
