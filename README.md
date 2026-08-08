@@ -119,6 +119,17 @@ NPCs remember what you say and how you treat them, hold their own moods and sche
 amongst themselves, so talk to them like people, not menus. Your game saves automatically;
 relaunching offers to continue where you left off.
 
+### Poke under the hood (`--dev`)
+
+Launch with `NPCRAGSystem.exe --dev` to unlock developer commands at any prompt, handy for messing
+about with the world:
+
+- `talk <name>`: jump straight into a conversation with any NPC, anywhere, ignoring their schedule
+- `debug <npc> <state> <0-1>`: set a mood or relationship, e.g. `debug corin anger 0.8`
+- `stats`: show the current NPC's emotions, trust, and memories
+- `compare <line>`: run your message against several models side by side
+- `reset <npc>` / `forget`: reset an NPC to baseline / clear the current conversation
+
 ---
 
 ## Documentation
