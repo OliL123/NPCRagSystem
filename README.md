@@ -63,17 +63,31 @@ Full request-flow walkthrough, code map, and technique catalog: [**docs/ARCHITEC
 
 ## Running it
 
-You need [**Ollama**](https://ollama.com/download) and the [**.NET 8 SDK**](https://dotnet.microsoft.com/download).
+You'll need [**Ollama**](https://ollama.com/download), the local AI runtime. Whether you also need
+the .NET SDK depends on how you run it.
+
+### Play the build (no .NET needed)
+
+For playtesters: grab the prebuilt build and run it.
 
 ```bash
-# 1. Install Ollama, then pull the two models the app talks to:
-ollama pull llama3.1:8b        # chat model (hermes3:8b also works — pick at startup)
-ollama pull nomic-embed-text   # embeddings
+# 1. Install Ollama, then pull the two models the game uses:
+ollama pull nomic-embed-text                 # embeddings (~275 MB)
+ollama pull DarkSparktheVoid/hermes-npc      # fine-tuned character model (~5 GB)
 
-# 2. Make sure Ollama is serving (it runs a local server on :11434):
-ollama serve                   # usually already running after install
+# 2. Unzip the build, run NPCRAGSystem.exe, and choose hermes-npc at the model picker.
+```
 
-# 3. Build and run:
+### Run from source (developers)
+
+You'll also need the [**.NET 8 SDK**](https://dotnet.microsoft.com/download).
+
+```bash
+# 1. Pull a chat model + the embeddings model (a stock chat model is fine here):
+ollama pull llama3.1:8b        # hermes3:8b also works; pick at startup
+ollama pull nomic-embed-text
+
+# 2. Build and run (Ollama serves a local API on :11434):
 dotnet run                     # add --dev for developer commands
 ```
 
